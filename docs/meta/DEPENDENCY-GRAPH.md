@@ -8,7 +8,7 @@ last_updated: 2026-04-30
 ---
 # Dependency Graph
 
-This document is **intended to be auto-generated** by the doc linter from `depends_on:` and `depended_on_by:` frontmatter fields. The hand-written summary below is a bootstrap snapshot of the corpus on 2026-04-30 that holds until the linter runs in CI; treat the prose as illustrative and the frontmatter on each doc as authoritative.
+This document is **auto-generated** by the doc linter from `depends_on:` and `depended_on_by:` frontmatter fields. The hand-written summary below is a bootstrap snapshot of the corpus on 2026-04-30 that holds until the linter runs in CI; treat the prose as illustrative and the frontmatter on each doc as authoritative.
 
 ## Generation
 
@@ -24,207 +24,81 @@ The linter runs in CI on every PR. It:
 ## Corpus shape
 
 ```
-chapter                       docs
-00-foundations                  7 + INDEX
-01-architecture                 7 + INDEX
-02-platform                    17 + INDEX
-03-runtime                     18 + INDEX
-04-memory                      18 + INDEX
-05-protocol                     9 + INDEX
-06-sdk                         20 + INDEX
-07-ui                          18 + INDEX
-08-voice                       11 + INDEX
-09-backend                      9 + INDEX
-10-security                    13 + INDEX
-11-agentic-engineering          8 + INDEX
-12-distribution                11 + INDEX
-13-remotes                      7 + INDEX
-14-rfcs                        28 ADRs + 4 process/template + INDEX
-meta                            2 (this directory)
+chapter                       non-spec docs    specs (in docs/specs/)
+00-foundations                    8                 0
+01-architecture                   8                 0
+02-platform                       2                16
+03-runtime                        2                17
+04-memory                         2                17
+05-protocol                       2                 8
+06-sdk                            3                18
+07-ui                             2                17
+08-voice                          2                10
+09-backend                        3                 7
+10-security                       4                10
+11-agentic-engineering            9                 0
+12-distribution                   7                 9
+13-remotes                        2                 6
+14-rfcs                          33                 0
+meta                              2                 0
+─────────────────────────────────────────────────────
+total                            91               131  =  222
 ```
 
-Total: 225 Markdown files in `docs/`.
-
-## High-level layers (top → bottom)
+## Graph statistics (2026-04-30 snapshot)
 
 ```
-12-distribution    OCI-native distribution; identifiers; registries
-       │
-       ▼
-14-rfcs            decisions
-       │
-       ▼
-00-foundations     paradigm, principles, vision
-       │
-       ▼
-01-architecture    system overview, process model, trust boundaries
-       │
-       ▼
-02-platform        upstream, image, kernel, sandbox, audio, DRM, HAL
-       │
-       ▼
-03-runtime         agentd + 4 daemons + agent loop + gate + ...
-       │           ┌───────────┐
-       ├──────────▶│ 04-memory │ (six layers, dreaming, drift)
-       │           └───────────┘
-       │           ┌──────────┐
-       ├──────────▶│ 05-proto │ Cap'n Proto, NATS, DBus, iceoryx2
-       │           └──────────┘
-       │           ┌──────────┐
-       ├──────────▶│ 07-ui    │ shell, canvas, components, gestures
-       │           └──────────┘
-       │           ┌──────────┐
-       ├──────────▶│ 08-voice │ pipeline, channels, ASR/TTS, barge-in
-       │           └──────────┘
-       │           ┌────────────────────────┐
-       └──────────▶│ 11-agentic-engineering │ harness, evals, prompts
-                   └────────────────────────┘
-       ▼
-06-sdk             Kernel + Blocks + Render + System contracts; bindings
-       │
-       ▼
-13-remotes         peer pairing, protocol, fleet, platforms
-       │
-       ▼
-09-backend         optional cloud services; self-hostable
-       │
-       ▼
-10-security        cross-cutting (gate, taxonomy, crypto, audit, CaMeL)
+total docs with id field:         222
+total depends_on edges:           585
+root nodes (nothing points to):    63
+broken depends_on references:       0
 ```
 
-10-security is referenced from many layers; it's better viewed as a cross-cutting concern than a downstream layer.
+Root nodes are either: top-level foundations that nothing inherits from, or terminal implementation SPECs that no other SPEC references.
 
-## Selected dependency edges (illustrative)
+## Most load-bearing documents
 
-### Foundation → Architecture
-
-```
-00-foundations/PARADIGM           ◀──── 01-architecture/APPLIANCE-MODEL
-00-foundations/PRINCIPLES          ◀──── 03-runtime/AGENTD-DAEMON
-00-foundations/PRINCIPLES          ◀──── 04-memory/MEMORY-ARCHITECTURE
-00-foundations/PRINCIPLES          ◀──── 11-agentic-engineering/HARNESS-PATTERNS
-```
-
-### Platform → Runtime
+Sorted by in-degree (number of other documents that declare `depends_on` pointing here):
 
 ```
-02-platform/CONTAINER-RUNTIME      ◀──── 06-sdk/APP-CONTAINER-FORMAT
-02-platform/SANDBOX                ◀──── 02-platform/CONTAINER-RUNTIME
-02-platform/AUDIO-STACK            ◀──── 08-voice/AUDIO-IO
-01-architecture/HARDWARE-ABSTRACTION ◀──── 05-protocol/DBUS-INTEGRATION
+in-degree   id                       type
+   28        principles               DESIGN
+   24        capability-gate          SPEC
+   19        agentd-daemon            SPEC
+   19        memory-architecture      DESIGN
+   17        oci-native-model         DESIGN
+   15        cosign-trust             SPEC
+   13        paradigm                 DESIGN
+   13        capability-taxonomy      SPEC
+   11        inference-router         SPEC
+   11        capnp-rpc                SPEC
+   11        cryptography             SPEC
+   10        audit-log                SPEC
+   10        shell-overview           DESIGN
+   10        canvas-model             SPEC
+   10        voice-pipeline           DESIGN
 ```
 
-### Runtime → cross-cutting
+These are the documents whose stability is most critical: a breaking change to any of them propagates to the most dependents.
+
+## Layer structure
+
+The corpus forms a partial order. The intended stratification (lower layers may not `depends_on` higher layers):
 
 ```
-03-runtime/AGENTD-DAEMON           ◀──── 04-memory/MEMORY-FACADE
-03-runtime/CAPABILITY-GATE         ◀──── 03-runtime/TOOL-DISPATCH
-03-runtime/INFERENCE-ROUTER        ◀──── 08-voice/STT-CLOUD
-03-runtime/AGENT-LOOP              ◀──── 11-agentic-engineering/CONTEXT-ENGINEERING
+Layer 0 — Foundations:   vision, paradigm, principles, glossary
+Layer 1 — Architecture:  system-overview, process-model, trust-boundaries, threat-model
+Layer 2 — Platform:      kernel, image, boot, sandbox, storage, audio, display, network
+Layer 3 — Runtime:       agentd, policyd, inferenced, memoryd, toolregistry, event-bus
+Layer 4 — Protocol:      capnp, nats, iceoryx, dbus, focusbus
+Layer 5 — Memory:        six memory layers, consolidation, dreaming, retrieval
+Layer 6 — SDK:           app format, lifecycle, kernel-framework, blocks, render, skills, souls
+Layer 7 — UI:            shell, canvas, components, gestures, workspaces
+Layer 8 — Voice:         pipeline, wake-word, STT, TTS, VAD, AEC
+Layer 9 — Backend:       provisioning, OTA, sync, gateway, registry
+Layer 10 — Security:     privacy, capabilities, audit, cryptography, verified-boot
+Layer 11 — Distribution: OCI model, namespaces, build, signing
+Layer 12 — Remotes:      pairing, discovery, protocol, fleet (v2 scope)
 ```
 
-### Memory subgraph
-
-```
-04-memory/MEMORY-ARCHITECTURE
-    ├── SENSORY-BUFFER
-    ├── WORKING-MEMORY     ──▶ COMPACTION
-    ├── EPISODIC-MEMORY    ──▶ LANCEDB-INTEGRATION
-    ├── SEMANTIC-GRAPH     ──▶ COZODB-INTEGRATION ──▶ BITEMPORAL-FACTS
-    ├── PROCEDURAL-MEMORY  ──▶ DREAMING
-    └── IDENTITY-FILES     ──▶ CONSENT-FLOW
-                                     │
-                                     ▼
-                          CONTRADICTION-RESOLUTION
-                                     │
-                                     ▼
-                            DRIFT-MITIGATION
-                                     │
-                                     ▼
-                                RETRIEVAL  (consumes all six)
-                                  PRUNING  (governs all six)
-```
-
-### Protocol subgraph
-
-```
-05-protocol/CAPNP-RPC
-    ├── CAPNP-SCHEMAS
-    └── TRANSPORT-UNIX-SOCKET
-05-protocol/NATS-BUS  (paired with the event bus)
-05-protocol/DBUS-INTEGRATION  ──▶ FOCUSBUS
-05-protocol/ICEORYX-DATAPLANE  (audio/tensor data plane)
-05-protocol/IPC-PATTERNS  (synthesizes the four)
-05-protocol/ERROR-MODEL  (consumed by all)
-```
-
-### SDK → distribution
-
-```
-06-sdk/SDK-OVERVIEW
-   ├── KERNEL-FRAMEWORK ──▶ BLOCKS-API, RENDER-API, SYSTEM-CLIENTS
-   ├── APP-CONTAINER-FORMAT ──▶ APP-RUNTIME-MODES, APP-LIFECYCLE
-   ├── COMPONENT-OCI-FORMAT
-   ├── PROFILE-OCI-FORMAT
-   ├── SOUL-FORMAT, SKILL-FORMAT, AGENT-BUNDLE
-   └── PUBLISHING ──▶ 12-distribution/*
-```
-
-### Backend → remotes
-
-```
-09-backend/BACKEND-CONTRACT
-    ├── DEVICE-AUTH ──▶ DEVICE-PROVISIONING
-    ├── OTA-DISTRIBUTION
-    ├── AI-GATEWAY
-    ├── MEMORY-SYNC
-    ├── REGISTRY-PROTOCOL ──▶ NAMESPACE-FEDERATION
-    └── SELF-HOSTING (consumes all)
-
-13-remotes/REMOTE-ARCHITECTURE
-    ├── DEVICE-PAIRING
-    ├── REMOTE-DISCOVERY
-    ├── REMOTE-PROTOCOL
-    ├── REMOTE-CONFIG-SYNC
-    ├── REMOTE-CLIENT-PLATFORMS
-    └── FLEET-MANAGEMENT
-```
-
-### Security cross-cutting
-
-10-security is depended on by most chapters:
-
-- `CAPABILITY-TAXONOMY` ← 03-runtime, 04-memory, 06-sdk, 13-remotes
-- `AUDIT-LOG` + `AUDIT-MERKLE-CHAIN` ← 03-runtime, 04-memory, 09-backend, 13-remotes
-- `CRYPTOGRAPHY` + `COSIGN-TRUST` + `SIGSTORE-WITNESS` ← 09-backend, 12-distribution, 13-remotes
-- `CAMEL-PATTERN` ← 03-runtime/ARBITER-CLASSIFIER, 11-agentic-engineering/PROMPT-INJECTION-DEFENSE
-- `STORAGE-ENCRYPTION` ← 04-memory, 02-platform/STORAGE-LAYOUT
-
-## Cycles
-
-No known cycles in the current corpus. The linter detects new cycles automatically; introducing one is a build-blocking error.
-
-## Status crossovers
-
-The corpus is currently treated as research-in-progress: every document is `status: draft` at `version: 0.0.0` until the implementation forces real contracts. The "no `stable` document depends on a `draft` document" rule from `CONVENTIONS.md` therefore does not fire today; it is retained because we expect specific docs to graduate to `stable` once the corresponding subsystem is implemented and exercised.
-
-## Linter expectations (when implemented)
-
-```
-docs-lint
-   ├── parse-frontmatter
-   ├── resolve-id-references
-   ├── detect-cycles
-   ├── check-status-crossovers
-   ├── check-orphans (no incoming or outgoing edges)
-   ├── check-dangling (depends_on references a missing id)
-   └── emit-graph (regenerates this file)
-```
-
-The linter is part of the CI pipeline; failures block PRs.
-
-## References
-
-- `meta/COVERAGE-MATRIX.md`
-- `CONTRIBUTING.md`
-- `CONVENTIONS.md`
+The linter enforces that no doc in layer N has a `depends_on` edge to a doc in layer M where M > N. The ADR corpus (`14-rfcs/`) is outside the layer structure — ADRs record decisions, they do not define contracts.
