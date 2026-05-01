@@ -12,23 +12,23 @@ The agent harness layer: five daemons, agent loop, capability gate, hooks, mailb
 
 ## Daemons
 
-- `AGENTD-DAEMON.md` — central daemon: process structure, startup, supervision.
-- `INFERENCE-ROUTER.md` and `INFERENCE-ENGINE.md` — `inferenced` internals.
-- `MODEL-REGISTRY.md` and `INFERENCE-MODELS.md` — model catalog and routing.
-- `TOOL-DISPATCH.md` and `TOOLREGISTRY.md` — tool dispatch + registry.
-- `CAPABILITY-GATE.md` and `ARBITER-CLASSIFIER.md` — `policyd` internals.
+- `../specs/AGENTD-DAEMON.md` — central daemon: process structure, startup, supervision.
+- `../specs/INFERENCE-ROUTER.md` and `../specs/INFERENCE-ENGINE.md` — `inferenced` internals.
+- `../specs/MODEL-REGISTRY.md` and `INFERENCE-MODELS.md` — model catalog and routing.
+- `../specs/TOOL-DISPATCH.md` and `../specs/TOOLREGISTRY.md` — tool dispatch + registry.
+- `../specs/CAPABILITY-GATE.md` and `../specs/ARBITER-CLASSIFIER.md` — `policyd` internals.
 
 ## Agent execution
 
-- `AGENT-LOOP.md` — 10-step inference cycle.
-- `COORDINATOR.md` — rule-based event triage.
-- `EVENT-BUS.md` — internal tokio mpsc bus.
-- `LOOP-BUDGET.md` — circuit breaker per task.
-- `HOOKS.md` — 18+ hook points × 3 modes.
-- `MAILBOX.md` — durable async messaging.
-- `SUBAGENTS.md` — Fork / Teammate / Worktree.
+- `../specs/AGENT-LOOP.md` — 10-step inference cycle.
+- `../specs/COORDINATOR.md` — rule-based event triage.
+- `../specs/EVENT-BUS.md` — internal tokio mpsc bus.
+- `../specs/LOOP-BUDGET.md` — circuit breaker per task.
+- `../specs/HOOKS.md` — 18+ hook points × 3 modes.
+- `../specs/MAILBOX.md` — durable async messaging.
+- `../specs/SUBAGENTS.md` — Fork / Teammate / Worktree.
 
 ## Lifecycle
 
-- `WORKSPACE-LIFECYCLE.md` — parallel sessions, hibernation, concurrency.
-- `UPDATE-ORCHESTRATOR.md` — bootc / sysext / app update coordination.
+- `../specs/WORKSPACE-LIFECYCLE.md` — parallel sessions, hibernation, concurrency.
+- `../specs/UPDATE-ORCHESTRATOR.md` — bootc / sysext / app update coordination.

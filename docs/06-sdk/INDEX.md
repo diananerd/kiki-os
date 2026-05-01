@@ -16,21 +16,21 @@ How to build apps, components, tools, profiles, skills, and bundles for Kiki OS.
 
 ## App authoring
 
-- `APP-CONTAINER-FORMAT.md` — OCI container conventions for Kiki apps.
-- `APP-RUNTIME-MODES.md` — four types: CLI tool, headless service, interactive ephemeral, interactive service.
-- `APP-LIFECYCLE.md` — install, launch, pause, resume, terminate via quadlet.
-- `KERNEL-FRAMEWORK.md` — state + commands + auto-MCP via rmcp.
-- `BLOCKS-API.md` — emitting blocks, reactive bindings.
-- `RENDER-API.md` — DMA-BUF offscreen surface for tier-full apps.
-- `SYSTEM-CLIENTS.md` — memory, inference, focusbus, tools, agents.
+- `../specs/APP-CONTAINER-FORMAT.md` — OCI container conventions for Kiki apps.
+- `../specs/APP-RUNTIME-MODES.md` — four types: CLI tool, headless service, interactive ephemeral, interactive service.
+- `../specs/APP-LIFECYCLE.md` — install, launch, pause, resume, terminate via quadlet.
+- `../specs/KERNEL-FRAMEWORK.md` — state + commands + auto-MCP via rmcp.
+- `../specs/BLOCKS-API.md` — emitting blocks, reactive bindings.
+- `../specs/RENDER-API.md` — DMA-BUF offscreen surface for tier-full apps.
+- `../specs/SYSTEM-CLIENTS.md` — memory, inference, focusbus, tools, agents.
 
 ## Artifact formats
 
-- `COMPONENT-OCI-FORMAT.md` — Slint markup as OCI artifact.
-- `PROFILE-OCI-FORMAT.md` — signed YAML profile as OCI artifact.
-- `SOUL-FORMAT.md` — SOUL.md and extensions.
-- `SKILL-FORMAT.md` — Markdown skill format.
-- `AGENT-BUNDLE.md` — `.kab` packaged subagent configurations.
+- `../specs/COMPONENT-OCI-FORMAT.md` — Slint markup as OCI artifact.
+- `../specs/PROFILE-OCI-FORMAT.md` — signed YAML profile as OCI artifact.
+- `../specs/SOUL-FORMAT.md` — SOUL.md and extensions.
+- `../specs/SKILL-FORMAT.md` — Markdown skill format.
+- `../specs/AGENT-BUNDLE.md` — `.kab` packaged subagent configurations.
 
 ## Publishing
 
@@ -38,9 +38,9 @@ How to build apps, components, tools, profiles, skills, and bundles for Kiki OS.
 
 ## Language bindings
 
-- `SDK-RUST.md` — canonical Rust SDK.
-- `SDK-CODEGEN.md` — bindings auto-generation.
-- `SDK-BINDINGS-PYTHON.md`
-- `SDK-BINDINGS-TYPESCRIPT.md`
-- `SDK-BINDINGS-C.md`
-- `SDK-BINDINGS-GO.md`
+- `../specs/SDK-RUST.md` — canonical Rust SDK.
+- `../specs/SDK-CODEGEN.md` — bindings auto-generation.
+- `../specs/SDK-BINDINGS-PYTHON.md`
+- `../specs/SDK-BINDINGS-TYPESCRIPT.md`
+- `../specs/SDK-BINDINGS-C.md`
+- `../specs/SDK-BINDINGS-GO.md`

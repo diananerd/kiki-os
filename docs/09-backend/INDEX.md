@@ -16,13 +16,13 @@ Optional cloud services. The device is fully functional without any backend; bac
 
 ## Services
 
-- `DEVICE-AUTH.md` — mTLS device certificates.
-- `DEVICE-PROVISIONING.md` — first-boot enrollment, attestation.
-- `OTA-DISTRIBUTION.md` — bootc image distribution and sysext refresh.
-- `AI-GATEWAY.md` — credential substitution, budgets, provider abstraction.
-- `MEMORY-SYNC.md` — E2E encrypted, bitemporal-aware.
-- `REGISTRY-PROTOCOL.md` — namespace registry HTTP API.
-- `NAMESPACE-FEDERATION.md` — federation among OCI registries and namespace registries.
+- `../specs/DEVICE-AUTH.md` — mTLS device certificates.
+- `../specs/DEVICE-PROVISIONING.md` — first-boot enrollment, attestation.
+- `../specs/OTA-DISTRIBUTION.md` — bootc image distribution and sysext refresh.
+- `../specs/AI-GATEWAY.md` — credential substitution, budgets, provider abstraction.
+- `../specs/MEMORY-SYNC.md` — E2E encrypted, bitemporal-aware.
+- `../specs/REGISTRY-PROTOCOL.md` — namespace registry HTTP API.
+- `../specs/NAMESPACE-FEDERATION.md` — federation among OCI registries and namespace registries.
 
 ## Self-hosting
 

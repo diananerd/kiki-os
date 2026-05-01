@@ -1,0 +1,56 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Bash(git *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(fd *)",
+      "Read(**)",
+      "Edit(docs/**)",
+      "Edit(specs/**)",
+      "Write(docs/**)",
+      "Write(specs/**)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(rm -rf *)",
+      "Read(.env*)",
+      "Read(**/.ssh/**)",
+      "Read(**/.aws/**)"
+    ]
+  },
+  "agents": {
+    "teamName": "kiki-os",
+    "maxTeammates": 4,
+    "splitPane": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/guard-destructive.sh"
+          }
+        ]
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/task-gate.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
