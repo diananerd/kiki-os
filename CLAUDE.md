@@ -9,14 +9,16 @@ Kiki OS is an open research project asking how far a fully agentic OS can change
 ## Repo layout
 
 ```
-docs/     — chapter directories (00-foundations … 14-rfcs) + CONVENTIONS.md, CONTRIBUTING.md, README.md
-specs/    — all SPEC documents (131 files, flat), every file has type: SPEC in frontmatter
-meta/     — auto-generated: DEPENDENCY-GRAPH.md and COVERAGE-MATRIX.md (do not edit by hand)
-.claude/  — agent team config: settings.json, hooks/, agents/
-CLAUDE.md — this file
+docs/         — all documentation
+  00-foundations … 14-rfcs/  — chapter dirs: DESIGNs, GUIDEs, ADRs, RFCs, INDEX files
+  specs/        — all SPEC documents (131 files, flat), every file has type: SPEC
+  meta/         — auto-generated: DEPENDENCY-GRAPH.md, COVERAGE-MATRIX.md (do not edit by hand)
+  CONVENTIONS.md, CONTRIBUTING.md, README.md
+.claude/      — agent team config: settings.json, hooks/, agents/
+CLAUDE.md     — this file
 ```
 
-The chapter directories in `docs/` hold DESIGNs, GUIDEs, ADRs, RFCs, and INDEX files only. No SPECs live there.
+Chapter directories hold DESIGNs, GUIDEs, ADRs, RFCs, and INDEX files only. No SPECs live there.
 
 ## Document types and required sections
 
@@ -75,7 +77,7 @@ This repo is configured for Claude Code agent teams (`CLAUDE_CODE_EXPERIMENTAL_A
 - Commit after each unit of completed work. Do not batch unrelated changes.
 - Do not expand scope beyond what the task states. When in doubt, ask the lead.
 - Do not move files without updating all cross-references.
-- Do not create files outside `docs/`, `specs/`, or `meta/` without explicit instruction.
+- Do not create files outside `docs/` without explicit instruction.
 
 ## Hooks (enforced automatically)
 
