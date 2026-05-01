@@ -192,3 +192,6 @@ agent.recipes.install             # installing recipes from apps
 - `04-memory/DREAMING.md`
 - `06-sdk/SKILL-FORMAT.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[CAPABILITY-GATE]]

@@ -57,3 +57,6 @@ cage is built on wlroots, runs a single Wayland client fullscreen, handles DRM/K
 - `07-ui/COMPOSITOR.md`
 - `07-ui/SHELL-OVERVIEW.md`
 - `02-platform/DRM-DISPLAY.md`
+## Graph links
+
+[[0001-appliance-os-paradigm]]

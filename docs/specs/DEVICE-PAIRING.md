@@ -244,3 +244,6 @@ app_uninstall = "remote_or_device"
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[CRYPTOGRAPHY]]  [[DEVICE-AUTH]]  [[CAPABILITY-TAXONOMY]]  [[AUDIT-LOG]]

@@ -129,3 +129,6 @@ If agentui crashes: cage restarts it; the compositor stays up. If cage crashes: 
 - `07-ui/WORKSPACES.md`
 - `07-ui/ACCESSIBILITY.md`
 - `14-rfcs/0013-cage-kiosk-compositor.md`
+## Graph links
+
+[[PRINCIPLES]]  [[PROCESS-MODEL]]  [[DRM-DISPLAY]]  [[0013-cage-kiosk-compositor]]

@@ -175,3 +175,6 @@ Useful for unit-testing app logic without spinning up agentd.
 - `05-protocol/FOCUSBUS.md`
 - `05-protocol/CAPNP-RPC.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[SDK-OVERVIEW]]  [[KERNEL-FRAMEWORK]]  [[CAPNP-RPC]]  [[CAPABILITY-TAXONOMY]]

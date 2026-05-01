@@ -320,3 +320,6 @@ agentctl app sandbox-denials <name>  # recent denials (from auditd)
 - `06-sdk/PROFILE-OCI-FORMAT.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `14-rfcs/0037-landlock-primary-apparmor-backstop.md`
+## Graph links
+
+[[KERNEL-CONFIG]]  [[PROCESS-MODEL]]  [[CONTAINER-RUNTIME]]

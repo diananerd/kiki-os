@@ -113,3 +113,6 @@ Apps have a defined lifecycle (install, launch, pause, resume, terminate) implem
 - `06-sdk/PUBLISHING.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[PRINCIPLES]]  [[PARADIGM]]  [[CAPABILITY-TAXONOMY]]

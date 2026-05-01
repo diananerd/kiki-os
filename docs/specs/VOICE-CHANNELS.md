@@ -130,3 +130,6 @@ Bridge: privacy depends on bridge configuration; declared at install.
 - `02-platform/AUDIO-STACK.md`
 - `05-protocol/ICEORYX-DATAPLANE.md`
 - `13-remotes/REMOTE-PROTOCOL.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[ICEORYX-DATAPLANE]]  [[CAPNP-RPC]]

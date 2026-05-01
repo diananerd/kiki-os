@@ -168,3 +168,6 @@ Provisioning emits a single composite audit event:
 - `08-voice/SPEAKER-ID.md`
 - `10-security/VERIFIED-BOOT.md`
 - `02-platform/HARDWARE-KILL-SWITCHES.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[DEVICE-AUTH]]  [[IDENTITY-FILES]]  [[CONSENT-FLOW]]  [[VERIFIED-BOOT]]

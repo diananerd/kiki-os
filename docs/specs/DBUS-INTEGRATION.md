@@ -340,3 +340,6 @@ None.
 - `05-protocol/NATS-BUS.md`
 - `05-protocol/TRANSPORT-UNIX-SOCKET.md`
 - `08-voice/VOICE-CHANNELS.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[TRANSPORT-UNIX-SOCKET]]  [[CAPABILITY-GATE]]

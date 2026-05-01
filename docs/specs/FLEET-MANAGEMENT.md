@@ -177,3 +177,6 @@ The primary calls the office device via the remote protocol. The user's pairing 
 - `09-backend/BACKEND-CONTRACT.md`
 - `09-backend/SELF-HOSTING.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[REMOTE-PROTOCOL]]  [[DEVICE-PAIRING]]  [[REMOTE-CONFIG-SYNC]]  [[CAPABILITY-TAXONOMY]]

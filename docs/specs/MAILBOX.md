@@ -264,3 +264,6 @@ The agentui task manager surface lists pending messages. Voice exposes via "Kiki
 - `03-runtime/COORDINATOR.md`
 - `04-memory/CONSENT-FLOW.md`
 - `07-ui/TASK-MANAGER.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[CAPABILITY-GATE]]

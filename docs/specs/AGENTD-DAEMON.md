@@ -219,3 +219,6 @@ systemd restarts. Memory state recovered from disk. Mailbox messages replayed. I
 - `03-runtime/MAILBOX.md`
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `05-protocol/CAPNP-RPC.md`
+## Graph links
+
+[[PROCESS-MODEL]]  [[SANDBOX]]  [[CAPABILITY-TAXONOMY]]

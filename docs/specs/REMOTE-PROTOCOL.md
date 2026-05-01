@@ -211,3 +211,6 @@ TCP keepalives + an application-level ping every 30s. Stale sessions terminate a
 - `05-protocol/ERROR-MODEL.md`
 - `08-voice/VOICE-CHANNELS.md`
 - `10-security/CRYPTOGRAPHY.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[DEVICE-PAIRING]]  [[REMOTE-DISCOVERY]]  [[CAPNP-RPC]]  [[CRYPTOGRAPHY]]

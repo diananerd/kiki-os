@@ -251,3 +251,6 @@ None.
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/IPC-PATTERNS.md`
 - `08-voice/VOICE-CHANNELS.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[HARDWARE-ABSTRACTION]]  [[AUDIO-STACK]]

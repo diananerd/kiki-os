@@ -199,3 +199,6 @@ agentctl model gc
 - `03-runtime/INFERENCE-ENGINE.md`
 - `03-runtime/INFERENCE-MODELS.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
+## Graph links
+
+[[INFERENCE-ENGINE]]  [[OCI-NATIVE-MODEL]]

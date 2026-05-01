@@ -65,3 +65,6 @@ Specifically:
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `02-platform/IMAGE-COMPOSITION.md`
+## Graph links
+
+[[0001-appliance-os-paradigm]]  [[0002-oci-native-distribution]]

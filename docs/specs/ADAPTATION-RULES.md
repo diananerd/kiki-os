@@ -166,3 +166,6 @@ System rules ship in the OS image. Users can author custom rules via Settings (l
 - `07-ui/ACCESSIBILITY.md`
 - `07-ui/STATUS-BAR.md`
 - `01-architecture/HARDWARE-ABSTRACTION.md`
+## Graph links
+
+[[CANVAS-MODEL]]  [[DESIGN-TOKENS]]  [[ACCESSIBILITY]]

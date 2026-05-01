@@ -201,3 +201,6 @@ struct UserState {
 - `03-runtime/MAILBOX.md`
 - `03-runtime/LOOP-BUDGET.md`
 - `04-memory/DREAMING.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[EVENT-BUS]]  [[AGENT-LOOP]]  [[MAILBOX]]  [[LOOP-BUDGET]]

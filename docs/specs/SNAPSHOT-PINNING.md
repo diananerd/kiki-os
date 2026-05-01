@@ -147,3 +147,6 @@ Build configs point at the local path.
 - `02-platform/UPSTREAM-CHOICE.md`
 - `02-platform/IMAGE-COMPOSITION.md`
 - `14-rfcs/0006-centos-stream-bootc-upstream.md`
+## Graph links
+
+[[UPSTREAM-CHOICE]]  [[BUILD-SYSTEM]]

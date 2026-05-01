@@ -122,3 +122,6 @@ Each binding has a thin runtime crate / package that:
 - `06-sdk/SDK-BINDINGS-C.md`
 - `06-sdk/SDK-BINDINGS-GO.md`
 - `05-protocol/CAPNP-SCHEMAS.md`
+## Graph links
+
+[[SDK-RUST]]  [[CAPNP-SCHEMAS]]

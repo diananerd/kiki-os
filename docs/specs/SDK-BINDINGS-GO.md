@@ -121,3 +121,6 @@ id = "kiki:apps/my-go-app"
 - `06-sdk/SDK-RUST.md`
 - `06-sdk/SDK-CODEGEN.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
+## Graph links
+
+[[SDK-CODEGEN]]  [[SDK-RUST]]

@@ -269,3 +269,6 @@ Sensitive content is referenced (memory ID, file path) rather than embedded in t
 - `03-runtime/AGENT-LOOP.md`
 - `05-protocol/ICEORYX-DATAPLANE.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
+## Graph links
+
+[[SYSTEM-OVERVIEW]]  [[PROCESS-MODEL]]  [[PRINCIPLES]]

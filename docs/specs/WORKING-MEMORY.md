@@ -182,3 +182,6 @@ The full working memory.
 - `04-memory/COMPACTION.md`
 - `04-memory/IDENTITY-FILES.md`
 - `11-agentic-engineering/CONTEXT-ENGINEERING.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[CONTEXT-ENGINEERING]]  [[AGENT-LOOP]]

@@ -186,3 +186,6 @@ These two failures are diagnostic. Either symptom indicates the line was drawn w
 - `03-runtime/ARBITER-CLASSIFIER.md`
 - `04-memory/COMPACTION.md`
 - `11-agentic-engineering/CURATED-PROMPTS.md`
+## Graph links
+
+[[VISION]]  [[PRINCIPLES]]

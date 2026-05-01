@@ -230,3 +230,6 @@ Identity changes always go through `CONSENT-FLOW.md`. Other layers' writes are g
 - `04-memory/RETRIEVAL.md`
 - `04-memory/DREAMING.md`
 - `04-memory/DRIFT-MITIGATION.md`
+## Graph links
+
+[[PRINCIPLES]]  [[AGENTD-DAEMON]]  [[STORAGE-LAYOUT]]

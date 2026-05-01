@@ -191,3 +191,6 @@ Follows from: reliability (less to maintain), security (broader surface for revi
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/HARDCODED-RESTRICTIONS.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[VISION]]  [[PARADIGM]]

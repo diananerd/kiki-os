@@ -323,3 +323,6 @@ agentctl workspace export <ws-id>
 - `03-runtime/AGENTD-DAEMON.md`
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `14-rfcs/0043-workspaces-model.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[FILESYSTEM-BTRFS]]  [[CONTAINER-RUNTIME]]

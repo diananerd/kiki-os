@@ -259,3 +259,6 @@ energy_low_battery_pct = 15
 - `11-agentic-engineering/CONTEXT-ENGINEERING.md`
 - `11-agentic-engineering/MULTI-AGENT-POLICY.md`
 - `11-agentic-engineering/EVALUATION.md`
+## Graph links
+
+[[PRINCIPLES]]  [[INFERENCE-ROUTER]]  [[LOOP-BUDGET]]  [[CAPABILITY-GATE]]

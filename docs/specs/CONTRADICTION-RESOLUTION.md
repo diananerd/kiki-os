@@ -183,3 +183,6 @@ The contradiction-resolution machinery runs inside memoryd as part of dreaming a
 - `04-memory/DREAMING.md`
 - `04-memory/DRIFT-MITIGATION.md`
 - `03-runtime/ARBITER-CLASSIFIER.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[SEMANTIC-GRAPH]]  [[BITEMPORAL-FACTS]]  [[CONSENT-FLOW]]

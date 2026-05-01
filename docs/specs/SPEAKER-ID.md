@@ -133,3 +133,6 @@ on_low_confidence = "ask"      # ask | guest | foreground
 - `03-runtime/INFERENCE-MODELS.md`
 - `10-security/PRIVACY-MODEL.md`
 - `10-security/STORAGE-ENCRYPTION.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[AUDIO-IO]]  [[CAPABILITY-GATE]]  [[PRIVACY-MODEL]]

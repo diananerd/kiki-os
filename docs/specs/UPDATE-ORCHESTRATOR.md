@@ -264,3 +264,6 @@ agentctl update policy               # show update policy
 - `02-platform/CONTAINER-RUNTIME.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `10-security/COSIGN-TRUST.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[OCI-NATIVE-MODEL]]

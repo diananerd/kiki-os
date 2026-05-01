@@ -123,3 +123,6 @@ window_ms = 30
 - `08-voice/WAKE-WORD.md`
 - `08-voice/STT-LOCAL.md`
 - `08-voice/BARGE-IN.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[AUDIO-IO]]

@@ -253,3 +253,6 @@ agentctl boot last-fail            # last boot failure detail
 - `09-backend/OTA-DISTRIBUTION.md`
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/STORAGE-ENCRYPTION.md`
+## Graph links
+
+[[BOOT-CHAIN]]  [[CRYPTOGRAPHY]]  [[STORAGE-ENCRYPTION]]

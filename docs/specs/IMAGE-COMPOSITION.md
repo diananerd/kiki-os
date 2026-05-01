@@ -275,3 +275,6 @@ registry.kiki-os.dev/os/<channel>:latest
 - `12-distribution/BUILD-SYSTEM.md`
 - `12-distribution/SNAPSHOT-PINNING.md`
 - `14-rfcs/0007-mkosi-image-build.md`
+## Graph links
+
+[[UPSTREAM-CHOICE]]  [[PARADIGM]]

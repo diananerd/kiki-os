@@ -165,3 +165,6 @@ Configure providers, allowlists, and CA root; it's a regular Rust service.
 - `08-voice/TTS-CLOUD.md`
 - `10-security/PRIVACY-MODEL.md`
 - `10-security/CRYPTOGRAPHY.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[DEVICE-AUTH]]  [[INFERENCE-ROUTER]]  [[CAPABILITY-GATE]]  [[COST-CONTROL]]

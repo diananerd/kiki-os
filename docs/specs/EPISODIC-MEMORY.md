@@ -167,3 +167,6 @@ agent.memory.redact.episodic     ElevatedConsent
 - `04-memory/RETRIEVAL.md`
 - `04-memory/PRUNING.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[LANCEDB-INTEGRATION]]  [[AUDIT-LOG]]

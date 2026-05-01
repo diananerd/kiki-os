@@ -221,3 +221,6 @@ Returns the cities the user has lived in with the start times.
 - `04-memory/CONTRADICTION-RESOLUTION.md`
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `04-memory/RETRIEVAL.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[COZODB-INTEGRATION]]  [[BITEMPORAL-FACTS]]

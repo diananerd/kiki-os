@@ -239,3 +239,6 @@ The fact that an exception was made does not loosen the rule for the next case.
 - `00-foundations/DETERMINISTIC-VS-AGENTIC.md`
 - `10-security/ANTI-PATTERNS.md`
 - `11-agentic-engineering/HARNESS-PATTERNS.md`
+## Graph links
+
+[[PARADIGM]]  [[PRINCIPLES]]  [[DETERMINISTIC-VS-AGENTIC]]

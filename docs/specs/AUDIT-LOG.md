@@ -343,3 +343,6 @@ The audit log is structurally critical: actions that cannot be logged are refuse
 - `10-security/CRYPTOGRAPHY.md`
 - `03-runtime/CAPABILITY-GATE.md`
 - `04-memory/CONSENT-FLOW.md`
+## Graph links
+
+[[PRINCIPLES]]  [[STORAGE-ENCRYPTION]]  [[AUDIT-MERKLE-CHAIN]]

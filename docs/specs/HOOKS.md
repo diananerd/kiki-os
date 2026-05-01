@@ -261,3 +261,6 @@ agentctl hooks recent                 # recent invocations
 - `03-runtime/CAPABILITY-GATE.md`
 - `04-memory/DRIFT-MITIGATION.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[AGENT-LOOP]]  [[CAPABILITY-TAXONOMY]]

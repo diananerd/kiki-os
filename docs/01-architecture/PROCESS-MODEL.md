@@ -227,3 +227,6 @@ Single-user devices have one user logically; the same scoping mechanisms apply b
 - `02-platform/CONTAINER-RUNTIME.md`
 - `03-runtime/AGENTD-DAEMON.md`
 - `06-sdk/APP-RUNTIME-MODES.md`
+## Graph links
+
+[[SYSTEM-OVERVIEW]]  [[APPLIANCE-MODEL]]  [[PRINCIPLES]]

@@ -204,3 +204,6 @@ Build-time:
 - `07-ui/ADAPTATION-RULES.md`
 - `07-ui/ACCESSIBILITY.md`
 - `07-ui/AGENTUI.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]

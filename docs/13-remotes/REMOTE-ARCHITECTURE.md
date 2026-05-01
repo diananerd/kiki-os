@@ -145,3 +145,6 @@ The backend never sees the content of remote-device traffic in LAN-direct. In WA
 - `13-remotes/FLEET-MANAGEMENT.md`
 - `13-remotes/REMOTE-CONFIG-SYNC.md`
 - `13-remotes/REMOTE-CLIENT-PLATFORMS.md`
+## Graph links
+
+[[PRINCIPLES]]  [[TRUST-BOUNDARIES]]  [[AGENTD-DAEMON]]  [[BACKEND-CONTRACT]]  [[VOICE-CHANNELS]]

@@ -182,3 +182,6 @@ jobs:
 - `10-security/COSIGN-TRUST.md`
 - `10-security/SIGSTORE-WITNESS.md`
 - `06-sdk/PUBLISHING.md`
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[MEDIA-TYPES]]  [[COSIGN-TRUST]]  [[SIGSTORE-WITNESS]]

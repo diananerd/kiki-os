@@ -49,3 +49,6 @@ Use **iceoryx2** as the local shared-memory data plane for audio, TTS, vision fr
 - `05-protocol/ICEORYX-DATAPLANE.md`
 - `02-platform/AUDIO-STACK.md`
 - `08-voice/VOICE-CHANNELS.md`
+## Graph links
+
+[[0014-rust-only-shell-stack]]

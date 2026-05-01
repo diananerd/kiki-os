@@ -46,3 +46,6 @@ Use **`ct-merkle` Rust crate** for RFC 9162 binary Merkle tree, plus per-entry h
 - `10-security/AUDIT-MERKLE-CHAIN.md`
 - `10-security/SIGSTORE-WITNESS.md`
 - RFC 9162
+## Graph links
+
+[[0035-rustls-aws-lc-rs]]

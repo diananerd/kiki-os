@@ -188,3 +188,6 @@ The framework provides an in-process harness for unit tests; integration tests u
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/ERROR-MODEL.md`
 - `03-runtime/TOOLREGISTRY.md`
+## Graph links
+
+[[SDK-OVERVIEW]]  [[CAPNP-RPC]]  [[CAPNP-SCHEMAS]]

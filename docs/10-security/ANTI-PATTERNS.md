@@ -159,3 +159,6 @@ This document enumerates patterns Kiki OS rejects by structure, with the reason 
 - `10-security/CAMEL-PATTERN.md`
 - `11-agentic-engineering/HARNESS-PATTERNS.md`
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
+## Graph links
+
+[[PARADIGM]]  [[PRINCIPLES]]  [[THREAT-MODEL]]  [[CAPABILITY-TAXONOMY]]

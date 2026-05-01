@@ -189,3 +189,6 @@ cli_tool apps can leave out blocks/render to shrink binary size.
 - `06-sdk/SDK-CODEGEN.md`
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/ERROR-MODEL.md`
+## Graph links
+
+[[SDK-OVERVIEW]]  [[KERNEL-FRAMEWORK]]  [[BLOCKS-API]]  [[RENDER-API]]  [[SYSTEM-CLIENTS]]

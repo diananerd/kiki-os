@@ -135,3 +135,6 @@ The Kiki client surfaces notes in Settings → Updates.
 - `12-distribution/OCI-WORKFLOWS.md`
 - `12-distribution/MAINTAINER-GUIDE.md`
 - `03-runtime/UPDATE-ORCHESTRATOR.md`
+## Graph links
+
+[[ARTIFACT-CATALOG]]  [[META-PACKAGES]]  [[OCI-NATIVE-MODEL]]

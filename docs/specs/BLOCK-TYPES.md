@@ -229,3 +229,6 @@ The capability gate runs at render time; failed checks render a placeholder.
 - `07-ui/COMPONENT-REGISTRY.md`
 - `07-ui/BROWSER-ENGINE.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
+## Graph links
+
+[[CANVAS-MODEL]]  [[LAYOUT-INTENTS]]  [[COMPONENT-LIBRARY]]  [[BROWSER-ENGINE]]

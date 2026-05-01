@@ -240,3 +240,6 @@ Mapping defenses to the boundaries they cross:
 - `10-security/ANTI-PATTERNS.md`
 - `10-security/VULNERABILITY-DISCLOSURE.md`
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
+## Graph links
+
+[[PRINCIPLES]]  [[TRUST-BOUNDARIES]]  [[SYSTEM-OVERVIEW]]

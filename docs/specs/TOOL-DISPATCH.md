@@ -243,3 +243,6 @@ agentctl tools recent
 - `05-protocol/CAPNP-RPC.md`
 - `06-sdk/APP-RUNTIME-MODES.md`
 - `10-security/CAMEL-PATTERN.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[CAPNP-RPC]]  [[CAPABILITY-GATE]]  [[APP-RUNTIME-MODES]]  [[SANDBOX]]

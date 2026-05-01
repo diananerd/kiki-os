@@ -109,3 +109,6 @@ Python is slower than Rust; for tools that need throughput, the agent dispatches
 - `06-sdk/SDK-RUST.md`
 - `06-sdk/SDK-CODEGEN.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
+## Graph links
+
+[[SDK-CODEGEN]]  [[SDK-RUST]]

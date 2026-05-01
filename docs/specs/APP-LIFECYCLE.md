@@ -172,3 +172,6 @@ Multiple versions of the same app can be installed but only one is "active" at a
 - `03-runtime/CAPABILITY-GATE.md`
 - `03-runtime/UPDATE-ORCHESTRATOR.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[APP-CONTAINER-FORMAT]]  [[APP-RUNTIME-MODES]]  [[CONTAINER-RUNTIME]]  [[CAPABILITY-GATE]]

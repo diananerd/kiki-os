@@ -307,3 +307,6 @@ None.
 - `03-runtime/TOOLREGISTRY.md`
 - `03-runtime/UPDATE-ORCHESTRATOR.md`
 - `03-runtime/TOOL-DISPATCH.md`
+## Graph links
+
+[[CAPNP-RPC]]  [[UPDATE-ORCHESTRATOR]]

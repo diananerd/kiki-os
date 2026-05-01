@@ -205,3 +205,6 @@ agentctl network connect <ssid>    # via agent prompt for password
 - `02-platform/DNS-RESOLUTION.md`
 - `02-platform/CONTAINER-RUNTIME.md`
 - `02-platform/HARDWARE-KILL-SWITCHES.md`
+## Graph links
+
+[[SANDBOX]]  [[INIT-SYSTEM]]

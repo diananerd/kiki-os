@@ -201,3 +201,6 @@ agentctl arbiter stats   # FP/FN rates if benchmarked
 - `00-foundations/DETERMINISTIC-VS-AGENTIC.md`
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
 - `14-rfcs/0040-arbiter-classifier-two-stage.md`
+## Graph links
+
+[[CAPABILITY-GATE]]  [[INFERENCE-ROUTER]]  [[INFERENCE-MODELS]]

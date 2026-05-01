@@ -149,3 +149,6 @@ kiki agents push registry.example/my-bundle:1.0
 - `06-sdk/SKILL-FORMAT.md`
 - `06-sdk/PROFILE-OCI-FORMAT.md`
 - `10-security/COSIGN-TRUST.md`
+## Graph links
+
+[[SUBAGENTS]]  [[PROCEDURAL-MEMORY]]  [[CAPABILITY-TAXONOMY]]

@@ -138,3 +138,6 @@ Replication interval: hourly for most; minutes for popular namespaces.
 - `09-backend/SELF-HOSTING.md`
 - `12-distribution/NAMESPACE-MODEL.md`
 - `12-distribution/REGISTRY-OPERATIONS.md`
+## Graph links
+
+[[REGISTRY-PROTOCOL]]  [[NAMESPACE-MODEL]]

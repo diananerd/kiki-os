@@ -50,3 +50,6 @@ Use **llama.cpp** as the inference engine, accessed from inferenced through the 
 - `03-runtime/INFERENCE-MODELS.md`
 - `03-runtime/MODEL-REGISTRY.md`
 - `02-platform/INFERENCE-ACCEL.md`
+## Graph links
+
+[[0014-rust-only-shell-stack]]

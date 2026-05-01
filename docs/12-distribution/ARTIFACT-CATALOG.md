@@ -154,3 +154,6 @@ If an artifact is retired, it's marked deprecated with a replacement pointer. De
 - `12-distribution/META-PACKAGES.md`
 - `12-distribution/RELEASE-CADENCE.md`
 - `03-runtime/INFERENCE-MODELS.md`
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[NAMESPACE-MODEL]]  [[MEDIA-TYPES]]

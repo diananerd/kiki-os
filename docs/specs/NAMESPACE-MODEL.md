@@ -169,3 +169,6 @@ A namespace can mark itself deprecated:
 - `10-security/COSIGN-TRUST.md`
 - `10-security/SIGSTORE-WITNESS.md`
 - `14-rfcs/0004-namespace-registry.md`
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[COSIGN-TRUST]]

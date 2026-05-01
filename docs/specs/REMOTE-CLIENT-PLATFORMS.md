@@ -190,3 +190,6 @@ Remote clients track the device's protocol version. Newer device, older client: 
 - `13-remotes/DEVICE-PAIRING.md`
 - `13-remotes/REMOTE-DISCOVERY.md`
 - `06-sdk/SDK-BINDINGS-TYPESCRIPT.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[REMOTE-PROTOCOL]]  [[DEVICE-PAIRING]]

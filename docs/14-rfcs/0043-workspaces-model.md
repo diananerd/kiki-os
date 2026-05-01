@@ -49,3 +49,6 @@ Introduce **workspaces** as the unit of an agent session. Each workspace owns it
 - `03-runtime/AGENTD-DAEMON.md`
 - `03-runtime/LOOP-BUDGET.md`
 - `11-agentic-engineering/COST-CONTROL.md`
+## Graph links
+
+[[0014-rust-only-shell-stack]]

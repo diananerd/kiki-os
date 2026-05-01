@@ -148,3 +148,6 @@ The planner produces `TypedPlan`. The parser is a separate model invocation with
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
 - `14-rfcs/0038-camel-trifecta-isolation.md`
 - arXiv 2503.18813 (CaMeL paper, DeepMind/ETH)
+## Graph links
+
+[[THREAT-MODEL]]  [[CAPABILITY-GATE]]

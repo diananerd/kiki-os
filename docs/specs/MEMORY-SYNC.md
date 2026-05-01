@@ -155,3 +155,6 @@ A reference Rust service implements the sync protocol; runs on any cloud or LAN.
 - `04-memory/CONTRADICTION-RESOLUTION.md`
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/PRIVACY-MODEL.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[DEVICE-AUTH]]  [[MEMORY-ARCHITECTURE]]  [[BITEMPORAL-FACTS]]  [[CRYPTOGRAPHY]]

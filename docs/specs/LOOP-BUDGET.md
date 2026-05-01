@@ -223,3 +223,6 @@ task_id, kind, allocated, used, exhausted, completed_at
 - `03-runtime/SUBAGENTS.md`
 - `03-runtime/INFERENCE-ROUTER.md`
 - `11-agentic-engineering/COST-CONTROL.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[AGENT-LOOP]]  [[SUBAGENTS]]

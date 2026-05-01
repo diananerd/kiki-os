@@ -171,3 +171,6 @@ We don't unilaterally remove artifacts (registries decide their own policies); w
 - `12-distribution/MAINTAINER-GUIDE.md`
 - `10-security/COSIGN-TRUST.md`
 - `10-security/SIGSTORE-WITNESS.md`
+## Graph links
+
+[[APP-CONTAINER-FORMAT]]  [[COMPONENT-OCI-FORMAT]]  [[PROFILE-OCI-FORMAT]]  [[SKILL-FORMAT]]  [[AGENT-BUNDLE]]  [[OCI-NATIVE-MODEL]]  [[COSIGN-TRUST]]

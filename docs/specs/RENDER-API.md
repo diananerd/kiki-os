@@ -117,3 +117,6 @@ Render is video-only. For audio, apps use the standard audio path (PipeWire via 
 - `07-ui/BLOCK-TYPES.md`
 - `02-platform/DRM-DISPLAY.md`
 - `02-platform/INFERENCE-ACCEL.md`
+## Graph links
+
+[[SDK-OVERVIEW]]  [[BLOCK-TYPES]]  [[DRM-DISPLAY]]  [[INFERENCE-ACCEL]]

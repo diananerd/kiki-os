@@ -242,3 +242,6 @@ For air-gapped: pull artifacts via a transit machine, push to your local zot. Th
 - `09-backend/REGISTRY-PROTOCOL.md`
 - `09-backend/NAMESPACE-FEDERATION.md`
 - `12-distribution/REGISTRY-OPERATIONS.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[DEVICE-AUTH]]  [[OTA-DISTRIBUTION]]  [[AI-GATEWAY]]  [[MEMORY-SYNC]]  [[REGISTRY-PROTOCOL]]  [[NAMESPACE-FEDERATION]]

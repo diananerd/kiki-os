@@ -149,3 +149,6 @@ OTA reveals to the mirror operator: which device pulled which version when. To m
 - `12-distribution/RELEASE-CADENCE.md`
 - `12-distribution/REGISTRY-OPERATIONS.md`
 - `10-security/COSIGN-TRUST.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[DEVICE-AUTH]]  [[OCI-NATIVE-MODEL]]  [[UPDATE-ORCHESTRATOR]]  [[COSIGN-TRUST]]

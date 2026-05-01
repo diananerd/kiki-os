@@ -155,3 +155,6 @@ We use the standard OpenAPI spec (machine-readable) for the API. Generators prod
 - `09-backend/SELF-HOSTING.md`
 - `12-distribution/NAMESPACE-MODEL.md`
 - `12-distribution/MAINTAINER-GUIDE.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[NAMESPACE-MODEL]]

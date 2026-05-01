@@ -161,3 +161,6 @@ Meta-packages reference exact digests, not floating tags. A reference manifest c
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `12-distribution/RELEASE-CADENCE.md`
 - `03-runtime/UPDATE-ORCHESTRATOR.md`
+## Graph links
+
+[[ARTIFACT-CATALOG]]  [[OCI-NATIVE-MODEL]]

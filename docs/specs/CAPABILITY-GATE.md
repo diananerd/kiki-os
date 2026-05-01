@@ -286,3 +286,6 @@ agentctl gate audit <since>
 - `10-security/AUDIT-LOG.md`
 - `10-security/CAMEL-PATTERN.md`
 - `04-memory/CONSENT-FLOW.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[CAPABILITY-TAXONOMY]]  [[AUDIT-LOG]]  [[SANDBOX]]

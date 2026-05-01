@@ -347,3 +347,6 @@ None.
 - `07-ui/CANVAS-MODEL.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/PRIVACY-MODEL.md`
+## Graph links
+
+[[DBUS-INTEGRATION]]  [[NATS-BUS]]  [[CAPABILITY-GATE]]

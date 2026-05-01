@@ -167,3 +167,6 @@ The library has a semver; the OS image's agentui binary embeds a single version.
 - `07-ui/DESIGN-TOKENS.md`
 - `07-ui/COMPONENT-REGISTRY.md`
 - `07-ui/ACCESSIBILITY.md`
+## Graph links
+
+[[BLOCK-TYPES]]  [[DESIGN-TOKENS]]

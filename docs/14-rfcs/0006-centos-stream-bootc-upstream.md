@@ -59,3 +59,6 @@ The upstream is invisible to the user. `/etc/os-release` reads `Kiki OS`, not `C
 
 - `02-platform/UPSTREAM-CHOICE.md`
 - `14-rfcs/0099-future-distribution-pivots.md`
+## Graph links
+
+[[0001-appliance-os-paradigm]]  [[0002-oci-native-distribution]]

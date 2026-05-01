@@ -156,3 +156,6 @@ agentctl network add-host <name> <ip>
 - `02-platform/NETWORK-STACK.md`
 - `02-platform/INIT-SYSTEM.md`
 - `03-runtime/INFERENCE-ROUTER.md`
+## Graph links
+
+[[NETWORK-STACK]]  [[INIT-SYSTEM]]

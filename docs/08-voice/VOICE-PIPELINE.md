@@ -165,3 +165,6 @@ The agent loop tracks session state separately from text sessions.
 - `08-voice/TTS-CLOUD.md`
 - `08-voice/BARGE-IN.md`
 - `08-voice/SPEAKER-ID.md`
+## Graph links
+
+[[AUDIO-STACK]]  [[INFERENCE-ROUTER]]  [[INFERENCE-MODELS]]  [[CAPABILITY-GATE]]

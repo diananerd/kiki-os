@@ -249,3 +249,6 @@ agentctl subagents history <user>
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `14-rfcs/0041-coordinator-worker-isolation.md`
 - `14-rfcs/0042-sidechain-jsonl-subagents.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[AGENT-LOOP]]  [[CAPABILITY-GATE]]  [[MAILBOX]]  [[LOOP-BUDGET]]

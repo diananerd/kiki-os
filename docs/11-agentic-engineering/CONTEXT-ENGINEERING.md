@@ -289,3 +289,6 @@ engineering bug.
 - `04-memory/SEMANTIC-GRAPH.md`
 - `11-agentic-engineering/HARNESS-PATTERNS.md`
 - `11-agentic-engineering/EVALUATION.md`
+## Graph links
+
+[[PRINCIPLES]]  [[AGENT-LOOP]]  [[HARNESS-PATTERNS]]

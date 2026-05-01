@@ -115,3 +115,6 @@ disable_for_voice_session = false
 - `09-backend/AI-GATEWAY.md`
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/PRIVACY-MODEL.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[INFERENCE-ROUTER]]  [[CAPABILITY-GATE]]  [[CRYPTOGRAPHY]]

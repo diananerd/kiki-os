@@ -349,3 +349,6 @@ None.
 - `05-protocol/IPC-PATTERNS.md`
 - `05-protocol/ERROR-MODEL.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[CAPABILITY-GATE]]  [[TRANSPORT-UNIX-SOCKET]]  [[CAPNP-SCHEMAS]]

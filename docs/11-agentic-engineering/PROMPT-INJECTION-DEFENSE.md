@@ -267,3 +267,6 @@ Even with all defenses:
 - `11-agentic-engineering/MULTI-AGENT-POLICY.md`
 - AgentDojo benchmark (github.com/ethz-spylab/agentdojo)
 - Willison, "The lethal trifecta for AI agents"
+## Graph links
+
+[[PRINCIPLES]]  [[CAMEL-PATTERN]]  [[CAPABILITY-GATE]]  [[ARBITER-CLASSIFIER]]  [[AUDIT-LOG]]

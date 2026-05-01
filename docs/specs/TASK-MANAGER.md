@@ -141,3 +141,6 @@ It does *not* expose intermediate model output (that's in the conversation block
 - `03-runtime/SUBAGENTS.md`
 - `03-runtime/LOOP-BUDGET.md`
 - `11-agentic-engineering/COST-CONTROL.md`
+## Graph links
+
+[[CANVAS-MODEL]]  [[WORKSPACES]]  [[WORKSPACE-LIFECYCLE]]  [[COST-CONTROL]]

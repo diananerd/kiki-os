@@ -232,3 +232,6 @@ agentctl tools install <oci-uri>      # install a WASM tool
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `05-protocol/CAPNP-RPC.md`
 - `12-distribution/MEDIA-TYPES.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[TOOL-DISPATCH]]  [[CAPNP-RPC]]

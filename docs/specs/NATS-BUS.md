@@ -326,3 +326,6 @@ None.
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/TRANSPORT-UNIX-SOCKET.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[TRANSPORT-UNIX-SOCKET]]  [[CAPABILITY-GATE]]

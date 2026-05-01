@@ -213,3 +213,6 @@ cat /sys/kernel/security/lsm    # active LSMs
 - `02-platform/SANDBOX.md`
 - `02-platform/BOOT-CHAIN.md`
 - `10-security/VERIFIED-BOOT.md`
+## Graph links
+
+[[UPSTREAM-CHOICE]]  [[SANDBOX]]

@@ -199,3 +199,6 @@ kiki-memory dream now --phase=light      # ad-hoc trigger (for debugging)
 - `04-memory/DRIFT-MITIGATION.md`
 - `04-memory/CONSENT-FLOW.md`
 - `03-runtime/MAILBOX.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[EPISODIC-MEMORY]]  [[SEMANTIC-GRAPH]]  [[PROCEDURAL-MEMORY]]  [[INFERENCE-ROUTER]]

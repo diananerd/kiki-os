@@ -134,3 +134,6 @@ We do not allow apps to inject items here. (Notifications go to the mailbox; per
 - `07-ui/DESIGN-TOKENS.md`
 - `07-ui/ADAPTATION-RULES.md`
 - `03-runtime/MAILBOX.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[CANVAS-MODEL]]  [[DESIGN-TOKENS]]

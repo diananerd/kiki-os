@@ -205,3 +205,6 @@ Closed facts (`known_to < now() - retention_window`) can be GC'd if not linked f
 - `04-memory/COZODB-INTEGRATION.md`
 - `04-memory/CONTRADICTION-RESOLUTION.md`
 - `04-memory/DRIFT-MITIGATION.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[SEMANTIC-GRAPH]]

@@ -332,3 +332,6 @@ None.
 - `05-protocol/DBUS-INTEGRATION.md`
 - `05-protocol/IPC-PATTERNS.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[CAPNP-RPC]]  [[AUDIT-LOG]]

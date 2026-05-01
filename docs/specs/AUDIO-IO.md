@@ -154,3 +154,6 @@ beamforming = "auto"
 - `08-voice/VOICE-CHANNELS.md`
 - `08-voice/BARGE-IN.md`
 - `05-protocol/ICEORYX-DATAPLANE.md`
+## Graph links
+
+[[AUDIO-STACK]]  [[VOICE-PIPELINE]]  [[ICEORYX-DATAPLANE]]

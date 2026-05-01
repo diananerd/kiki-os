@@ -50,3 +50,6 @@ For subagent dispatch in trifecta-prone domains (web browsing, email reading, do
 - `11-agentic-engineering/MULTI-AGENT-POLICY.md`
 - `10-security/CAMEL-PATTERN.md`
 - `03-runtime/CAPABILITY-GATE.md`
+## Graph links
+
+[[0038-camel-trifecta-isolation]]  [[0040-arbiter-classifier-two-stage]]

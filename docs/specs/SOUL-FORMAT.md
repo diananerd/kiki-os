@@ -169,3 +169,6 @@ The git repo provides history; no separate semver. Extensions carry version meta
 - `04-memory/WORKING-MEMORY.md`
 - `06-sdk/SKILL-FORMAT.md`
 - `06-sdk/PROFILE-OCI-FORMAT.md`
+## Graph links
+
+[[IDENTITY-FILES]]  [[CONSENT-FLOW]]

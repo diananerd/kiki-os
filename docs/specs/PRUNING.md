@@ -176,3 +176,6 @@ System-initiated pruning under default policy needs no per-call grant; it runs a
 - `04-memory/SEMANTIC-GRAPH.md`
 - `02-platform/FILESYSTEM-BTRFS.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[EPISODIC-MEMORY]]  [[SEMANTIC-GRAPH]]  [[PROCEDURAL-MEMORY]]  [[AUDIT-LOG]]

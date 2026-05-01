@@ -70,3 +70,6 @@ Document three pivot paths and the triggers that would activate each. None is in
 - `02-platform/UPSTREAM-CHOICE.md`
 - `12-distribution/SNAPSHOT-PINNING.md`
 - `14-rfcs/0006-centos-stream-bootc-upstream.md`
+## Graph links
+
+[[0006-centos-stream-bootc-upstream]]

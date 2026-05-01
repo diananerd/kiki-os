@@ -231,3 +231,6 @@ None.
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/ERROR-MODEL.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[CAPNP-RPC]]  [[CAPABILITY-GATE]]

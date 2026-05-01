@@ -49,3 +49,6 @@ Run an **embedded NATS server** (`nats-server`) at `/run/kiki/nats/nats.sock`. U
 - `05-protocol/NATS-BUS.md`
 - `03-runtime/EVENT-BUS.md`
 - `03-runtime/HOOKS.md`
+## Graph links
+
+[[0020-capnp-rpc-tool-dispatch]]

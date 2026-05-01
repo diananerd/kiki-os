@@ -200,3 +200,6 @@ User-level overrides at `/var/lib/kiki/users/<uid>/ui-policy.toml`.
 - `07-ui/BROWSER-ENGINE.md`
 - `07-ui/ACCESSIBILITY.md`
 - `05-protocol/CAPNP-RPC.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[COMPOSITOR]]  [[CANVAS-MODEL]]  [[CAPNP-RPC]]

@@ -162,3 +162,6 @@ cage runs without elevated capabilities. DRM is via session/seat, not raw root.
 - `07-ui/AGENTUI.md`
 - `02-platform/SANDBOX.md`
 - `14-rfcs/0013-cage-kiosk-compositor.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[DRM-DISPLAY]]  [[0013-cage-kiosk-compositor]]  [[SANDBOX]]

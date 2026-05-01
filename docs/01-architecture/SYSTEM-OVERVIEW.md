@@ -260,3 +260,6 @@ Total boot time target on reference hardware: under 30 seconds cold.
 - `01-architecture/THREAT-MODEL.md`
 - `01-architecture/DATA-FLOW.md`
 - `01-architecture/APPLIANCE-MODEL.md`
+## Graph links
+
+[[VISION]]  [[PARADIGM]]  [[PRINCIPLES]]

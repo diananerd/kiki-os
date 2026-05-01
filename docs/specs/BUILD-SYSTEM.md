@@ -178,3 +178,6 @@ kiki-pkg run .                 execute locally with stub services
 - `02-platform/UPSTREAM-CHOICE.md`
 - `10-security/COSIGN-TRUST.md`
 - `14-rfcs/0007-mkosi-image-build.md`
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[OCI-WORKFLOWS]]  [[0007-mkosi-image-build]]  [[COSIGN-TRUST]]

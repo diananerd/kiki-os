@@ -51,3 +51,6 @@ Implement a **two-stage arbiter classifier** following Anthropic's `yoloClassifi
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
 - `11-agentic-engineering/CURATED-PROMPTS.md`
 - `10-security/CAMEL-PATTERN.md`
+## Graph links
+
+[[0038-camel-trifecta-isolation]]

@@ -51,3 +51,6 @@ Use **mkosi 25+** as the image build tool.
 
 - `02-platform/IMAGE-COMPOSITION.md`
 - `12-distribution/BUILD-SYSTEM.md`
+## Graph links
+
+[[0006-centos-stream-bootc-upstream]]

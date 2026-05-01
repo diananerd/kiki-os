@@ -139,3 +139,6 @@ Each artifact carries an SBOM (in-toto attestation) and may carry additional att
 - `10-security/COSIGN-TRUST.md`
 - `10-security/SIGSTORE-WITNESS.md`
 - `14-rfcs/0002-oci-native-distribution.md`
+## Graph links
+
+[[PRINCIPLES]]  [[PARADIGM]]  [[COSIGN-TRUST]]  [[SIGSTORE-WITNESS]]

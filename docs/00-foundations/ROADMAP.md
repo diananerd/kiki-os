@@ -105,3 +105,6 @@ Goal: Kiki OS as a fleet, not just a device.
 - How to handle proprietary GPU drivers (NVIDIA blob) within the appliance shape.
 - Naming of the canonical default agent persona.
 - Whether v1 ships with English-only or multilingual.
+## Graph links
+
+[[VISION]]  [[PARADIGM]]

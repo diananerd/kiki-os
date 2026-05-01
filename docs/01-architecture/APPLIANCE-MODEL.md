@@ -200,3 +200,6 @@ Developer mode does not weaken security — capabilities, signatures, and the au
 - `02-platform/IMAGE-COMPOSITION.md`
 - `14-rfcs/0001-appliance-os-paradigm.md`
 - `14-rfcs/0005-no-package-manager-user-facing.md`
+## Graph links
+
+[[PARADIGM]]  [[SYSTEM-OVERVIEW]]

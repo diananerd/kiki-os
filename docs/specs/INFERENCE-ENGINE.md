@@ -215,3 +215,6 @@ agentctl inference test <model> "<prompt>"
 - `02-platform/INFERENCE-ACCEL.md`
 - `14-rfcs/0024-llamacpp-inference-engine.md`
 - `14-rfcs/0098-mistralrs-runner-up-documented.md`
+## Graph links
+
+[[INFERENCE-ROUTER]]  [[MODEL-REGISTRY]]  [[INFERENCE-ACCEL]]

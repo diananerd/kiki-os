@@ -134,3 +134,6 @@ kiki sync settings conflicts
 - `09-backend/MEMORY-SYNC.md`
 - `04-memory/IDENTITY-FILES.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[REMOTE-PROTOCOL]]  [[DEVICE-PAIRING]]

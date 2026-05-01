@@ -188,3 +188,6 @@ Most apps cannot read identity directly; they read derived per-app preferences i
 - `04-memory/WORKING-MEMORY.md`
 - `10-security/AUDIT-LOG.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[CONSENT-FLOW]]  [[AUDIT-LOG]]

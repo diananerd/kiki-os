@@ -146,3 +146,6 @@ The reference implementations are open source and small.
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/PRIVACY-MODEL.md`
 - `12-distribution/NAMESPACE-MODEL.md`
+## Graph links
+
+[[PRINCIPLES]]  [[PARADIGM]]  [[CRYPTOGRAPHY]]  [[COSIGN-TRUST]]

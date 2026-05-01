@@ -169,3 +169,6 @@ agentctl storage set-recovery-passphrase
 - `02-platform/BOOT-CHAIN.md`
 - `02-platform/STORAGE-LAYOUT.md`
 - `14-rfcs/0011-luks2-cryptenroll-homed.md`
+## Graph links
+
+[[CRYPTOGRAPHY]]  [[BOOT-CHAIN]]  [[STORAGE-LAYOUT]]

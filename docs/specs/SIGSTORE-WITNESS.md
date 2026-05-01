@@ -200,3 +200,6 @@ agentctl trust verify --rekor <oci-url>     # verify cosign signature via Rekor
 - `14-rfcs/0003-cosign-sigstore-trust.md`
 - sigsum project: https://sigsum.org
 - Sigstore Rekor: https://docs.sigstore.dev/rekor/
+## Graph links
+
+[[COSIGN-TRUST]]  [[AUDIT-MERKLE-CHAIN]]

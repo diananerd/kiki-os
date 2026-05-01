@@ -301,3 +301,6 @@ agentctl audit show                       # audit log
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `03-runtime/INFERENCE-ROUTER.md`
 - `03-runtime/CAPABILITY-GATE.md`
+## Graph links
+
+[[PRINCIPLES]]  [[PARADIGM]]  [[CAPABILITY-TAXONOMY]]  [[MEMORY-ARCHITECTURE]]  [[INFERENCE-ROUTER]]

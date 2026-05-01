@@ -147,3 +147,6 @@ oras push registry.example/profiles/kid-friendly:1.0 \
 - `12-distribution/OCI-WORKFLOWS.md`
 - OCI distribution-spec
 - in-toto attestation framework
+## Graph links
+
+[[OCI-NATIVE-MODEL]]

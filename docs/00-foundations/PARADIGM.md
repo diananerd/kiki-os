@@ -138,3 +138,6 @@ Several common Linux decisions are rejected by paradigm:
 - `02-platform/UPSTREAM-CHOICE.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `14-rfcs/0001-appliance-os-paradigm.md`
+## Graph links
+
+[[VISION]]

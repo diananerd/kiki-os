@@ -213,3 +213,6 @@ The CLI is read-only; approval must go through the user-facing channel to ensure
 - `03-runtime/CAPABILITY-GATE.md`
 - `10-security/AUDIT-LOG.md`
 - `13-remotes/DEVICE-PAIRING.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[IDENTITY-FILES]]  [[CAPABILITY-GATE]]  [[MAILBOX]]  [[AUDIT-LOG]]

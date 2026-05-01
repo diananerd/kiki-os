@@ -215,3 +215,6 @@ A per-session query cache (memoized by query hash) skips repeated identical retr
 - `04-memory/SEMANTIC-GRAPH.md`
 - `04-memory/PROCEDURAL-MEMORY.md`
 - `11-agentic-engineering/CONTEXT-ENGINEERING.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[MEMORY-FACADE]]  [[EPISODIC-MEMORY]]  [[SEMANTIC-GRAPH]]  [[PROCEDURAL-MEMORY]]  [[IDENTITY-FILES]]

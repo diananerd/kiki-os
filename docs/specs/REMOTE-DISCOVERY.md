@@ -120,3 +120,6 @@ Used by the remote to pick a device when multiple are available; or by the user 
 - `13-remotes/REMOTE-PROTOCOL.md`
 - `09-backend/BACKEND-CONTRACT.md`
 - `02-platform/NETWORK-STACK.md`
+## Graph links
+
+[[REMOTE-ARCHITECTURE]]  [[DEVICE-PAIRING]]  [[BACKEND-CONTRACT]]

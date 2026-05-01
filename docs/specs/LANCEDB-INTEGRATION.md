@@ -164,3 +164,6 @@ Btrfs snapshot of `/var/lib/kiki/users/<uid>/memory/episodic/`. The snapshot is 
 - `04-memory/RETRIEVAL.md`
 - `02-platform/STORAGE-LAYOUT.md`
 - `02-platform/FILESYSTEM-BTRFS.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[EPISODIC-MEMORY]]  [[STORAGE-LAYOUT]]

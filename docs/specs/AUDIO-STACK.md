@@ -190,3 +190,6 @@ agentctl audio set-default <name>  # change default audio output
 - `08-voice/VOICE-PIPELINE.md`
 - `08-voice/AUDIO-IO.md`
 - `08-voice/BARGE-IN.md`
+## Graph links
+
+[[HAL-CONTRACT]]  [[INIT-SYSTEM]]

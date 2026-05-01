@@ -197,3 +197,6 @@ recipe_rot_threshold_failures = 3
 - `04-memory/DREAMING.md`
 - `04-memory/PROCEDURAL-MEMORY.md`
 - `04-memory/CONSENT-FLOW.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[BITEMPORAL-FACTS]]  [[CONTRADICTION-RESOLUTION]]  [[DREAMING]]

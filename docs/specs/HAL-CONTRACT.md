@@ -235,3 +235,6 @@ agentctl hardware audio      # audio devices
 - `02-platform/HARDWARE-KILL-SWITCHES.md`
 - `02-platform/NETWORK-STACK.md`
 - `01-architecture/PROCESS-MODEL.md`
+## Graph links
+
+[[HARDWARE-MANIFEST]]  [[KERNEL-CONFIG]]  [[PROCESS-MODEL]]

@@ -139,3 +139,6 @@ agentui constructs a WebProfile from the web block's declared capabilities.
 - `07-ui/BLOCK-TYPES.md`
 - `02-platform/SANDBOX.md`
 - `03-runtime/CAPABILITY-GATE.md`
+## Graph links
+
+[[AGENTUI]]  [[BLOCK-TYPES]]  [[CAPABILITY-GATE]]  [[SANDBOX]]

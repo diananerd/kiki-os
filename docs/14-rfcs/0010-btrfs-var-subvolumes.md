@@ -52,3 +52,6 @@ Use **btrfs** for `/var` with per-workspace subvolumes and zstd:3 compression.
 - `02-platform/FILESYSTEM-BTRFS.md`
 - `02-platform/STORAGE-LAYOUT.md`
 - `03-runtime/WORKSPACE-LIFECYCLE.md`
+## Graph links
+
+[[0008-systemd-init]]

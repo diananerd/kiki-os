@@ -155,3 +155,6 @@ A self-hosted backend runs its own CA. Devices can be enrolled against any CA th
 - `09-backend/SELF-HOSTING.md`
 - `10-security/CRYPTOGRAPHY.md`
 - `10-security/STORAGE-ENCRYPTION.md`
+## Graph links
+
+[[BACKEND-CONTRACT]]  [[CRYPTOGRAPHY]]  [[COSIGN-TRUST]]

@@ -169,3 +169,6 @@ Importing runs the validation pipeline; capabilities must be available or grants
 - `04-memory/RETRIEVAL.md`
 - `06-sdk/PUBLISHING.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
+## Graph links
+
+[[PROCEDURAL-MEMORY]]  [[CAPABILITY-TAXONOMY]]

@@ -116,3 +116,6 @@ If we need a fix, we contribute to CentOS Stream upstream. If the fix is too slo
 - `12-distribution/SNAPSHOT-PINNING.md`
 - `14-rfcs/0006-centos-stream-bootc-upstream.md`
 - `14-rfcs/0099-future-distribution-pivots.md`
+## Graph links
+
+[[PARADIGM]]  [[APPLIANCE-MODEL]]  [[HARDWARE-ABSTRACTION]]

@@ -307,3 +307,6 @@ These are all expressed in the hardware manifest. Adding support for new hardwar
 - `02-platform/IMAGE-COMPOSITION.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `07-ui/ADAPTATION-RULES.md`
+## Graph links
+
+[[SYSTEM-OVERVIEW]]  [[PRINCIPLES]]  [[PARADIGM]]

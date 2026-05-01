@@ -257,3 +257,6 @@ agentctl boot status          # higher-level summary
 - `10-security/STORAGE-ENCRYPTION.md`
 - `09-backend/OTA-DISTRIBUTION.md`
 - `14-rfcs/0009-systemd-boot-uki-pcr.md`
+## Graph links
+
+[[UPSTREAM-CHOICE]]  [[INIT-SYSTEM]]  [[IMAGE-COMPOSITION]]

@@ -189,3 +189,6 @@ A canvas can be serialized to JSON for snapshot tests. The reconciler is determi
 - `07-ui/WORKSPACES.md`
 - `07-ui/ADAPTATION-RULES.md`
 - `07-ui/ACCESSIBILITY.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[AGENTUI]]  [[LAYOUT-INTENTS]]  [[BLOCK-TYPES]]

@@ -119,3 +119,6 @@ GPU/accelerator memory budget is a separate concern; whisper.cpp uses what's dec
 - `08-voice/VOICE-PIPELINE.md`
 - `08-voice/STT-CLOUD.md`
 - `08-voice/VAD.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[VAD]]  [[INFERENCE-MODELS]]  [[INFERENCE-ENGINE]]

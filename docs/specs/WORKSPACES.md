@@ -140,3 +140,6 @@ Voice commands target the active workspace by default. "Switch to news briefing"
 - `07-ui/TASK-MANAGER.md`
 - `07-ui/GESTURE-VOCABULARY.md`
 - `11-agentic-engineering/COST-CONTROL.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[CANVAS-MODEL]]  [[WORKSPACE-LIFECYCLE]]  [[GESTURE-VOCABULARY]]

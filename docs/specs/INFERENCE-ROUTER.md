@@ -253,3 +253,6 @@ agentctl router test <prompt> --priv=sensitive --latency=conv
 - `09-backend/AI-GATEWAY.md`
 - `10-security/PRIVACY-MODEL.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[MODEL-REGISTRY]]  [[CAPABILITY-TAXONOMY]]  [[AUDIT-LOG]]

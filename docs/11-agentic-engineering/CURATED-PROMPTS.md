@@ -287,3 +287,6 @@ this.
 - `11-agentic-engineering/HARNESS-PATTERNS.md`
 - `11-agentic-engineering/EVALUATION.md`
 - `11-agentic-engineering/CONTEXT-ENGINEERING.md`
+## Graph links
+
+[[PRINCIPLES]]  [[HARNESS-PATTERNS]]  [[ARBITER-CLASSIFIER]]  [[EVALUATION]]

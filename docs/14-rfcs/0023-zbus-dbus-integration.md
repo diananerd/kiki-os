@@ -46,3 +46,6 @@ Use **zbus** (pure Rust) as the DBus client and server library for all daemon in
 - `05-protocol/DBUS-INTEGRATION.md`
 - `05-protocol/FOCUSBUS.md`
 - `01-architecture/HARDWARE-ABSTRACTION.md`
+## Graph links
+
+[[0014-rust-only-shell-stack]]

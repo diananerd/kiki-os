@@ -321,3 +321,6 @@ None.
 - `05-protocol/DBUS-INTEGRATION.md`
 - `02-platform/SANDBOX.md`
 - `01-architecture/PROCESS-MODEL.md`
+## Graph links
+
+[[SANDBOX]]  [[PROCESS-MODEL]]

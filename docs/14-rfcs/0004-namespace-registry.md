@@ -75,3 +75,6 @@ Specifically:
 - `09-backend/NAMESPACE-FEDERATION.md`
 - `12-distribution/NAMESPACE-MODEL.md`
 - `12-distribution/OCI-WORKFLOWS.md`
+## Graph links
+
+[[0002-oci-native-distribution]]  [[0003-cosign-sigstore-trust]]

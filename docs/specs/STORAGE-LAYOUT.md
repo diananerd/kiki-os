@@ -228,3 +228,6 @@ The storage layout is the persistent state.
 - `02-platform/FILESYSTEM-BTRFS.md`
 - `10-security/STORAGE-ENCRYPTION.md`
 - `02-platform/CONTAINER-RUNTIME.md`
+## Graph links
+
+[[BOOT-CHAIN]]  [[FILESYSTEM-BTRFS]]

@@ -50,3 +50,6 @@ Use **systemd-boot** with **Unified Kernel Images (UKIs)** signed via **sd-stub*
 - `02-platform/BOOT-CHAIN.md`
 - `10-security/VERIFIED-BOOT.md`
 - `10-security/STORAGE-ENCRYPTION.md`
+## Graph links
+
+[[0008-systemd-init]]

@@ -112,3 +112,6 @@ for await (const hit of memory.searchStream(query)) {
 - `06-sdk/SDK-CODEGEN.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `13-remotes/REMOTE-CLIENT-PLATFORMS.md`
+## Graph links
+
+[[SDK-CODEGEN]]  [[SDK-RUST]]

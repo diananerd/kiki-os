@@ -85,3 +85,6 @@ Canonical identity is `kiki:<namespace>/<name>@<version>`, resolved through a na
 - OCI Distribution Spec v1.1
 - OCI Image Spec v1.1
 - Sigstore project documentation
+## Graph links
+
+[[0001-appliance-os-paradigm]]

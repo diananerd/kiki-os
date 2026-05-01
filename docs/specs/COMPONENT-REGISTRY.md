@@ -156,3 +156,6 @@ Components handle locale via the standard string-table mechanism; no hardcoded s
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `10-security/COSIGN-TRUST.md`
 - `12-distribution/OCI-NATIVE-MODEL.md`
+## Graph links
+
+[[COMPONENT-LIBRARY]]  [[OCI-NATIVE-MODEL]]  [[COSIGN-TRUST]]

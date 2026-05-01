@@ -161,3 +161,6 @@ interactive_service and headless_service apps can be hibernated when idle (cgrou
 - `06-sdk/APP-LIFECYCLE.md`
 - `02-platform/CONTAINER-RUNTIME.md`
 - `03-runtime/WORKSPACE-LIFECYCLE.md`
+## Graph links
+
+[[APP-CONTAINER-FORMAT]]  [[CONTAINER-RUNTIME]]

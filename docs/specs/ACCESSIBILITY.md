@@ -179,3 +179,6 @@ User preferences hot-apply.
 - `07-ui/INPUT-PIPELINE.md`
 - `07-ui/DESIGN-TOKENS.md`
 - `07-ui/ADAPTATION-RULES.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[AGENTUI]]  [[CANVAS-MODEL]]  [[INPUT-PIPELINE]]  [[DESIGN-TOKENS]]

@@ -49,3 +49,6 @@ SELinux is not used. bpf-lsm is not used in v0.
 - `02-platform/SANDBOX.md`
 - `02-platform/CONTAINER-RUNTIME.md`
 - `02-platform/KERNEL-CONFIG.md`
+## Graph links
+
+[[0006-centos-stream-bootc-upstream]]

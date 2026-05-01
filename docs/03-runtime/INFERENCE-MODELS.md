@@ -191,3 +191,6 @@ Users can install higher quants if VRAM allows.
 - `03-runtime/ARBITER-CLASSIFIER.md`
 - `04-memory/RETRIEVAL.md`
 - `08-voice/VOICE-PIPELINE.md`
+## Graph links
+
+[[INFERENCE-ROUTER]]  [[INFERENCE-ENGINE]]  [[MODEL-REGISTRY]]

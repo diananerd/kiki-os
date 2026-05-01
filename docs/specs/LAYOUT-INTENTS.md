@@ -189,3 +189,6 @@ The command bar and prompts overlay the content region without changing its layo
 - `07-ui/DESIGN-TOKENS.md`
 - `07-ui/ADAPTATION-RULES.md`
 - `07-ui/ACCESSIBILITY.md`
+## Graph links
+
+[[CANVAS-MODEL]]  [[DESIGN-TOKENS]]

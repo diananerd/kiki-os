@@ -261,3 +261,6 @@ parallelism. Real-time loop control instead of cycle-based.
 - `11-agentic-engineering/MULTI-AGENT-POLICY.md`
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
 - `11-agentic-engineering/COST-CONTROL.md`
+## Graph links
+
+[[PRINCIPLES]]  [[AGENT-LOOP]]  [[CONTEXT-ENGINEERING]]  [[PROMPT-INJECTION-DEFENSE]]

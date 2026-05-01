@@ -196,3 +196,6 @@ Reentrant: can call itself for tool-result re-entry.
 - `03-runtime/LOOP-BUDGET.md`
 - `04-memory/WORKING-MEMORY.md`
 - `04-memory/RETRIEVAL.md`
+## Graph links
+
+[[AGENTD-DAEMON]]  [[EVENT-BUS]]  [[COORDINATOR]]  [[INFERENCE-ROUTER]]  [[TOOL-DISPATCH]]  [[CAPABILITY-GATE]]  [[WORKING-MEMORY]]

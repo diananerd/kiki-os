@@ -49,3 +49,6 @@ Persist each subagent's full transcript as a **JSONL file in a sidechain directo
 - `03-runtime/SUBAGENTS.md`
 - `11-agentic-engineering/MULTI-AGENT-POLICY.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[0041-coordinator-worker-isolation]]

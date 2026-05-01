@@ -156,3 +156,6 @@ Profiles can be applied per-user on a multi-user device (e.g., one user has kid_
 - `04-memory/IDENTITY-FILES.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/COSIGN-TRUST.md`
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[COSIGN-TRUST]]  [[CAPABILITY-TAXONOMY]]

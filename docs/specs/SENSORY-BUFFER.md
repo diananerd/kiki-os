@@ -118,3 +118,6 @@ In-memory only.
 - `05-protocol/ICEORYX-DATAPLANE.md`
 - `08-voice/VOICE-CHANNELS.md`
 - `04-memory/WORKING-MEMORY.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[AUDIO-STACK]]  [[ICEORYX-DATAPLANE]]

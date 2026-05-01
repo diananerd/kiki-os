@@ -294,3 +294,6 @@ agentctl storage gc                # cleanup unused images
 - `06-sdk/APP-RUNTIME-MODES.md`
 - `06-sdk/APP-LIFECYCLE.md`
 - `14-rfcs/0012-podman-quadlet-app-runtime.md`
+## Graph links
+
+[[INIT-SYSTEM]]  [[SANDBOX]]  [[STORAGE-LAYOUT]]

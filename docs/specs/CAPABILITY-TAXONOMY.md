@@ -366,3 +366,6 @@ The taxonomy itself is static. Per-user grants persistent in redb.
 - `10-security/PRIVACY-MODEL.md`
 - `10-security/HARDCODED-RESTRICTIONS.md`
 - `06-sdk/PROFILE-OCI-FORMAT.md`
+## Graph links
+
+[[CAPABILITY-GATE]]  [[PRINCIPLES]]

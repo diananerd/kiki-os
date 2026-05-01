@@ -162,3 +162,6 @@ These feed evaluation (`EVALUATION.md`); regressions block summarizer-prompt cha
 - `11-agentic-engineering/CONTEXT-ENGINEERING.md`
 - `11-agentic-engineering/CURATED-PROMPTS.md`
 - `11-agentic-engineering/EVALUATION.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[WORKING-MEMORY]]  [[CONTEXT-ENGINEERING]]

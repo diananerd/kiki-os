@@ -211,3 +211,6 @@ memoryd holds the only handle to the rocksdb backend. Other components reach the
 - `04-memory/BITEMPORAL-FACTS.md`
 - `04-memory/MEMORY-ARCHITECTURE.md`
 - `02-platform/STORAGE-LAYOUT.md`
+## Graph links
+
+[[MEMORY-ARCHITECTURE]]  [[SEMANTIC-GRAPH]]  [[STORAGE-LAYOUT]]

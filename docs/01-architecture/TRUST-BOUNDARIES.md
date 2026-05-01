@@ -196,3 +196,6 @@ When all eight boundaries are correctly enforced:
 - `02-platform/SANDBOX.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/PRIVACY-MODEL.md`
+## Graph links
+
+[[SYSTEM-OVERVIEW]]  [[PROCESS-MODEL]]  [[DATA-FLOW]]  [[PRINCIPLES]]

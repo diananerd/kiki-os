@@ -255,3 +255,6 @@ The enforcement points are checked on every relevant action. Per-check overhead 
 - `03-runtime/CAPABILITY-GATE.md`
 - `10-security/CAPABILITY-TAXONOMY.md`
 - `10-security/AUDIT-LOG.md`
+## Graph links
+
+[[PRINCIPLES]]  [[CAPABILITY-GATE]]  [[IDENTITY-FILES]]  [[DRIFT-MITIGATION]]

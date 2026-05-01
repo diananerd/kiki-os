@@ -258,3 +258,6 @@ cosign CLI is also available in developer mode for direct manipulation.
 - `09-backend/REGISTRY-PROTOCOL.md`
 - `14-rfcs/0003-cosign-sigstore-trust.md`
 - `14-rfcs/0004-namespace-registry.md`
+## Graph links
+
+[[CRYPTOGRAPHY]]  [[NAMESPACE-MODEL]]

@@ -127,3 +127,6 @@ The library is thread-safe at the public-API level; internal state uses tokio un
 - `06-sdk/SDK-OVERVIEW.md`
 - `06-sdk/SDK-RUST.md`
 - `06-sdk/SDK-CODEGEN.md`
+## Graph links
+
+[[SDK-CODEGEN]]  [[SDK-RUST]]

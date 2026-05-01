@@ -154,3 +154,6 @@ Input devices are accessed via cage; agentui only sees Wayland-protocol events. 
 - `07-ui/AGENTUI.md`
 - `07-ui/GESTURE-VOCABULARY.md`
 - `07-ui/ACCESSIBILITY.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[COMPOSITOR]]  [[GESTURE-VOCABULARY]]  [[ACCESSIBILITY]]

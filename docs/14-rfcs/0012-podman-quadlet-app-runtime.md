@@ -53,3 +53,6 @@ Use **podman + crun** as the OCI runtime, integrated via **systemd quadlet**. Ap
 - `02-platform/CONTAINER-RUNTIME.md`
 - `06-sdk/APP-CONTAINER-FORMAT.md`
 - `06-sdk/APP-RUNTIME-MODES.md`
+## Graph links
+
+[[0001-appliance-os-paradigm]]  [[0002-oci-native-distribution]]  [[0008-systemd-init]]

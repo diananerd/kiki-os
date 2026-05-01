@@ -132,3 +132,6 @@ The TTS engine exposes a Cancel method that:
 - `08-voice/VAD.md`
 - `08-voice/TTS-LOCAL.md`
 - `08-voice/SPEAKER-ID.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[AUDIO-IO]]  [[VAD]]  [[TTS-LOCAL]]

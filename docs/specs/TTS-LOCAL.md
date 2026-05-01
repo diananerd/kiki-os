@@ -131,3 +131,6 @@ backend = "auto"
 - `08-voice/BARGE-IN.md`
 - `03-runtime/INFERENCE-MODELS.md`
 - `03-runtime/INFERENCE-ENGINE.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[AUDIO-IO]]  [[INFERENCE-MODELS]]  [[INFERENCE-ENGINE]]

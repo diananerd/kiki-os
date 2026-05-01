@@ -53,3 +53,6 @@ Adopt the **CaMeL pattern** (Capabilities for Mission-critical Execution with LL
 - `01-architecture/THREAT-MODEL.md`
 - `11-agentic-engineering/PROMPT-INJECTION-DEFENSE.md`
 - arXiv 2503.18813 (CaMeL paper)
+## Graph links
+
+[[0001-appliance-os-paradigm]]

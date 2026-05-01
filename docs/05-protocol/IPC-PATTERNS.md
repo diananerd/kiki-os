@@ -308,3 +308,6 @@ The audit log records use of deprecated paths; the
 - `05-protocol/ERROR-MODEL.md`
 - `03-runtime/HOOKS.md`
 - `03-runtime/EVENT-BUS.md`
+## Graph links
+
+[[CAPNP-RPC]]  [[NATS-BUS]]  [[DBUS-INTEGRATION]]  [[ICEORYX-DATAPLANE]]  [[ERROR-MODEL]]

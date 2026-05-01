@@ -167,3 +167,6 @@ agentctl display rotate <degrees>  # capability-gated rotation
 - `02-platform/INFERENCE-ACCEL.md`
 - `02-platform/HARDWARE-MANIFEST.md`
 - `07-ui/COMPOSITOR.md`
+## Graph links
+
+[[KERNEL-CONFIG]]  [[HARDWARE-MANIFEST]]

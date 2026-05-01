@@ -148,3 +148,6 @@ See `PUBLISHING.md`.
 - `12-distribution/OCI-NATIVE-MODEL.md`
 - `12-distribution/MEDIA-TYPES.md`
 - `10-security/COSIGN-TRUST.md`
+## Graph links
+
+[[COMPONENT-REGISTRY]]  [[OCI-NATIVE-MODEL]]  [[COSIGN-TRUST]]

@@ -175,3 +175,6 @@ If a view function panics, the framework renders a placeholder block with a "vie
 - `07-ui/COMPONENT-LIBRARY.md`
 - `07-ui/LAYOUT-INTENTS.md`
 - `07-ui/DESIGN-TOKENS.md`
+## Graph links
+
+[[SDK-OVERVIEW]]  [[KERNEL-FRAMEWORK]]  [[BLOCK-TYPES]]  [[CANVAS-MODEL]]

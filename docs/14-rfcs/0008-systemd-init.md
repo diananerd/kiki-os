@@ -52,3 +52,6 @@ Use **systemd 257+** as the init and supervisor.
 
 - `02-platform/INIT-SYSTEM.md`
 - `01-architecture/PROCESS-MODEL.md`
+## Graph links
+
+[[0001-appliance-os-paradigm]]  [[0006-centos-stream-bootc-upstream]]

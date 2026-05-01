@@ -142,3 +142,6 @@ Bounded (default 200 entries); older drop.
 - `07-ui/GESTURE-VOCABULARY.md`
 - `07-ui/INPUT-PIPELINE.md`
 - `07-ui/STATUS-BAR.md`
+## Graph links
+
+[[SHELL-OVERVIEW]]  [[CANVAS-MODEL]]  [[GESTURE-VOCABULARY]]  [[INPUT-PIPELINE]]

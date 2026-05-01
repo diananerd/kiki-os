@@ -131,3 +131,6 @@ The training stays on-device; samples are kept under
 - `08-voice/SPEAKER-ID.md`
 - `08-voice/AUDIO-IO.md`
 - `02-platform/HARDWARE-KILL-SWITCHES.md`
+## Graph links
+
+[[VOICE-PIPELINE]]  [[AUDIO-IO]]  [[INFERENCE-ENGINE]]

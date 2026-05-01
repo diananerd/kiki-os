@@ -205,3 +205,6 @@ The filesystem and subvolumes are the persistent state.
 - `02-platform/KERNEL-CONFIG.md`
 - `10-security/STORAGE-ENCRYPTION.md`
 - `03-runtime/WORKSPACE-LIFECYCLE.md`
+## Graph links
+
+[[KERNEL-CONFIG]]  [[STORAGE-LAYOUT]]

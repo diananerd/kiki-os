@@ -140,3 +140,6 @@ Switch access (a single button cycling through actions) maps to a virtual keyboa
 - `07-ui/TASK-MANAGER.md`
 - `07-ui/WORKSPACES.md`
 - `07-ui/ACCESSIBILITY.md`
+## Graph links
+
+[[INPUT-PIPELINE]]  [[SHELL-OVERVIEW]]

@@ -142,3 +142,6 @@ None.
 - `02-platform/AUDIO-STACK.md`
 - `02-platform/NETWORK-STACK.md`
 - `10-security/PRIVACY-MODEL.md`
+## Graph links
+
+[[HAL-CONTRACT]]  [[HARDWARE-MANIFEST]]

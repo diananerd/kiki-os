@@ -178,3 +178,6 @@ agentctl inference set-backend <b>   # change backend (config)
 - `02-platform/HARDWARE-MANIFEST.md`
 - `03-runtime/INFERENCE-ENGINE.md`
 - `03-runtime/INFERENCE-MODELS.md`
+## Graph links
+
+[[DRM-DISPLAY]]  [[HARDWARE-MANIFEST]]

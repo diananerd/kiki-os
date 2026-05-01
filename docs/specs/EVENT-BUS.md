@@ -201,3 +201,6 @@ If `agentd` crashes with events in flight, those are lost. Events that must not 
 - `03-runtime/COORDINATOR.md`
 - `03-runtime/AGENT-LOOP.md`
 - `03-runtime/HOOKS.md`
+## Graph links
+
+[[AGENTD-DAEMON]]

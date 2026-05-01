@@ -254,3 +254,6 @@ agentctl hardware verify     # re-verify signature
 - `02-platform/HAL-CONTRACT.md`
 - `02-platform/BOOT-CHAIN.md`
 - `09-backend/DEVICE-PROVISIONING.md`
+## Graph links
+
+[[HARDWARE-ABSTRACTION]]

@@ -267,3 +267,6 @@ None.
 - `02-platform/SANDBOX.md`
 - `01-architecture/PROCESS-MODEL.md`
 - `14-rfcs/0008-systemd-init.md`
+## Graph links
+
+[[UPSTREAM-CHOICE]]  [[PROCESS-MODEL]]

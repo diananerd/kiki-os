@@ -178,3 +178,6 @@ If your registry passes, you're a viable target for Kiki publishing.
 - `12-distribution/OCI-WORKFLOWS.md`
 - `12-distribution/MEDIA-TYPES.md`
 - OCI distribution-spec
+## Graph links
+
+[[OCI-NATIVE-MODEL]]  [[NAMESPACE-MODEL]]  [[COSIGN-TRUST]]

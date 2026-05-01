@@ -260,3 +260,6 @@ least two of these is rejected.
 - `11-agentic-engineering/EVALUATION.md`
 - Anthropic Cookbook (multi-agent systems)
 - "Multi-Agent Hidden Costs" (research)
+## Graph links
+
+[[PRINCIPLES]]  [[SUBAGENTS]]  [[HARNESS-PATTERNS]]  [[COST-CONTROL]]

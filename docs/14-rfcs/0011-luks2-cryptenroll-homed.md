@@ -51,3 +51,6 @@ PCR sealing against PCRs 7 (Secure Boot policy), 11 (UKI measurements), 12 (cmdl
 - `10-security/STORAGE-ENCRYPTION.md`
 - `10-security/VERIFIED-BOOT.md`
 - `02-platform/STORAGE-LAYOUT.md`
+## Graph links
+
+[[0009-systemd-boot-uki-pcr]]

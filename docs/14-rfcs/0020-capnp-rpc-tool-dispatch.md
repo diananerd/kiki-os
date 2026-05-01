@@ -51,3 +51,6 @@ Use **Cap'n Proto RPC** (via `capnp-rpc-rs`) as the IPC layer between agentd, th
 - `05-protocol/CAPNP-RPC.md`
 - `05-protocol/CAPNP-SCHEMAS.md`
 - `03-runtime/TOOL-DISPATCH.md`
+## Graph links
+
+[[0014-rust-only-shell-stack]]
