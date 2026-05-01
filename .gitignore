@@ -1,4 +1,2 @@
-# Obsidian — local workspace state (do not share)
-docs/.obsidian/workspace*
-docs/.obsidian/cache
-docs/.obsidian/graph.json
+# Obsidian — vault config and local state are per-machine, not shared
+docs/.obsidian/
