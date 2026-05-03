@@ -1,0 +1,12 @@
+{
+  "bar": {
+    "url": "http://127.0.0.1:7071",
+    "api_style": "rest",
+    "description": "Kiki command bar — floating command palette. REST endpoints at POST /api/<action>. Actions: show (make visible), hide, toggle (show/hide), set_text {text:str} (fill input field), submit (press Enter on current text), send_goal {goal:str} (send goal directly to daemon), start_recording (begin voice capture), stop_recording {send:bool=true} (stop + transcribe + optionally submit). GET /api/state returns {visible, recording, entry, voice_available}."
+  },
+  "demo": {
+    "url": "http://127.0.0.1:7070",
+    "api_style": "tool",
+    "description": "Kiki OS demo app — GTK4 task manager. All actions via POST /api with {tool, ...args}. Actions: add_item {text:str} (append task), complete_item {index:int} (mark done with strikethrough), remove_item {index:int} (delete task), clear_items (empty list), navigate {direction:prev|next} (change page), toggle {id:autopilot|dark_mode} (flip boolean switch), show_dialog {title:str, message:str} (modal popup), set_status {text:str} (update status bar text), log {text:str} (append to agent log panel). GET /api/state returns {items:[str], autopilot:bool, dark_mode:bool, page:int, status:str}."
+  }
+}

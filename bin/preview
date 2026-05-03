@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT=$(git rev-parse --show-toplevel 2>/dev/null) || { echo "error: not a git repository" >&2; exit 1; }
+command -v fzf  >/dev/null 2>&1 || { echo "error: fzf required (apt install fzf)" >&2; exit 1; }
+command -v curl >/dev/null 2>&1 || { echo "error: curl required" >&2; exit 1; }
+
+export ROOT
+
+PORT=$(python3 -c 'import socket; s=socket.socket(); s.bind(("",0)); p=s.getsockname()[1]; s.close(); print(p)')
+
+LIST_CMD='{ git -C "$ROOT" diff --name-only; git -C "$ROOT" diff --cached --name-only; git -C "$ROOT" ls-files --others --exclude-standard 2>/dev/null; } | grep -v "^docs/" | sort -u'
+
+BAT=$(command -v bat 2>/dev/null || true)
+if [[ -n "$BAT" ]]; then
+  PREVIEW="$BAT --color=always --paging=never --style=numbers,header --line-range :500 $ROOT/{}"
+else
+  PREVIEW="cat $ROOT/{}"
+fi
+
+BRANCH=$(git -C "$ROOT" rev-parse --abbrev-ref HEAD 2>/dev/null || echo "detached")
+
+_watch() {
+  until curl -sf "localhost:$PORT" -d '' 2>/dev/null; do sleep 0.2; done
+
+  local prev
+  prev=$(eval "$LIST_CMD" 2>/dev/null | md5sum || echo "")
+
+  while true; do
+    sleep 1
+    local curr
+    curr=$(eval "$LIST_CMD" 2>/dev/null | md5sum || echo "")
+    if [[ "$curr" != "$prev" ]]; then
+      prev="$curr"
+      curl -sf "localhost:$PORT" -d "reload($LIST_CMD)" 2>/dev/null || true
+    fi
+  done
+}
+
+_watch &
+WATCH_PID=$!
+trap 'kill "$WATCH_PID" 2>/dev/null || true' EXIT INT TERM
+
+eval "$LIST_CMD" | fzf \
+  --listen "$PORT" \
+  --prompt "changed › " \
+  --header "  $BRANCH  │  ctrl-r: reload  │  esc: quit" \
+  --ansi \
+  --no-sort \
+  --preview "$PREVIEW" \
+  --preview-window "right:65%:wrap" \
+  --bind "ctrl-r:reload($LIST_CMD)"

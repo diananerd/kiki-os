@@ -41,7 +41,7 @@ See `CONVENTIONS.md` for frontmatter, naming, and authoring conventions.
 
 Documents have a status: `draft`, `stable`, `deprecated`, or `superseded-by:<id>`. Only `stable` documents may be referenced as load-bearing by other `stable` documents.
 
-As of 2026-04-30 the corpus is treated as **research-in-progress**: every document is `status: draft` at `version: 0.0.0` and stays there until the corresponding subsystem is implemented and exercised. The corpus contains 225 Markdown files: 131 SPECs, 20 DESIGNs, 28 ADRs, 1 RFC, 43 GUIDEs, and 2 generated meta documents. See `meta/DEPENDENCY-GRAPH.md` and `meta/COVERAGE-MATRIX.md` for the auto-generated cross-cutting views.
+As of 2026-05-01 the corpus is treated as **research-in-progress**: every document is `status: draft` at `version: 0.0.0` and stays there until the corresponding subsystem is implemented and exercised. The corpus contains 225 Markdown files: 131 SPECs, 20 DESIGNs, 28 ADRs, 1 RFC, 43 GUIDEs, and 2 generated meta documents. See `meta/DEPENDENCY-GRAPH.md` and `meta/COVERAGE-MATRIX.md` for the auto-generated cross-cutting views.
 
 ## Contributing
 

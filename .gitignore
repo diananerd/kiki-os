@@ -1,2 +1,7 @@
 # Obsidian — vault config and local state are per-machine, not shared
 docs/.obsidian/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

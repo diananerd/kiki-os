@@ -1,0 +1,8 @@
+{
+  "uuid": "kiki@kiki-os",
+  "name": "Kiki Shell Bridge",
+  "description": "Exposes GNOME Shell internals, window management, clipboard, GSettings, and screenshot via DBus io.kiki.Shell",
+  "version": 2,
+  "shell-version": ["45", "46", "47", "48"],
+  "url": ""
+}
